@@ -1,0 +1,186 @@
+{
+  "status": "offline_proposal_only_not_quoted_not_execution_ready",
+  "intent": "plan_for_later_cost_approval",
+  "answer": "I have prepared a one-clip plan for a 12-second uninterrupted forward move through the white curved architecture. Your logo and website text should come from your original artwork and approved copy, composited deterministically into every delivered frame. The AI background should contain no lettering. If this is a website scroll experience, semantic HTML can also provide the live text layer; that alone would not put the branding into an exported video, so the proposed video includes a composed version too.\n\nMotion Director remains unresolved: the skill distinguishes that phrase from Cinema Studio, Higgsfield DoP and Kling Motion Control, and I have not substituted any of them. Seedance is a conditional background-generation option, with its exact version, mode and supported controls still to be discovered. For rigid architecture and a reliable camera path, a deterministic 3D scene and camera spline are the preferred control method to evaluate. Optional AI finishing can change geometry and should be accepted only after inspection.\n\nThe proposed move starts at eye level facing the open curved passage, advances through verified empty space with a fixed lens and level horizon, and gently settles toward the far room. It is one continuous shot, with no cuts or optical zoom. The timing below is an exact animation target only for a deterministic render; in a Seedance prompt it is creative guidance.\n\nI have not inspected a scene reference, logo file or approved website copy. Those assets, final framing, and the intended scrub environment remain inputs to confirm. No provider tools, account writes, uploads, real estimates or generations were performed. The next online phase must resolve the route and exact request, obtain a complete quote including finishing, and then present one bounded spending question. There is no price or authorized budget to approve yet.",
+  "acceptance_contract": {
+    "deliverable": "One 12.000-second continuous clip suitable for forward and reverse seeking, plus a text-free background master if feasible within the later approved scope.",
+    "required": [
+      "White curved architectural appearance must match the approved scene reference once supplied.",
+      "One uninterrupted camera journey through an actual open passage; no cuts, transitions or camera penetration of solid geometry.",
+      "Rigid architecture, consistent object count, stable lighting, stable perspective and no morphing or flicker.",
+      "Original logo and verbatim approved website copy appear in every frame of the composed video, with deterministic shape, spelling, layout and visibility.",
+      "Exact 12-second delivery duration; unsupported provider durations must be explicitly reconciled before any submission."
+    ],
+    "proposed_defaults_not_provider_settings": {
+      "aspect_ratio": "16:9, subject to the intended desktop/mobile viewport",
+      "delivery_resolution": "1920x1080, subject to final presentation requirements and live route support",
+      "delivery_frame_rate": "30 fps; 360 frames at the proposed delivery rate",
+      "audio": "Silent",
+      "logo_and_copy_placement": "Fixed screen-space layer in a clear safe area, with continuous contrast and no fading",
+      "seek_delivery": "Encoding and keyframe spacing chosen after the website/player target is known and tested in both seek directions"
+    },
+    "hard_failures": [
+      "Any missing, misspelled, regenerated or deformed logo/text in a delivered frame",
+      "Any architecture deformation, impossible spatial passage or unintended cut",
+      "Any unapproved duration, crop or setting coercion",
+      "Poor seeking or illegible overlays in the actual delivery environment"
+    ]
+  },
+  "routes": {
+    "motion_director": {
+      "status": "unresolved_named_workflow",
+      "next_discovery": "Resolve the exact named recipe or obtain its relevant link/screenshot; inspect its current surface, instructions, required inputs, camera controls, submitting schema and estimator before selecting it.",
+      "prohibited_assumption": "Do not equate Motion Director with motion transfer, Cinema Studio, Higgsfield DoP or Kling Motion Control."
+    },
+    "seedance": {
+      "status": "conditional_candidate_only",
+      "selection_rule": "Discover no more than two compatible candidates and inspect the exact selected model and submitting tool. Choose a reference mode with supported appearance and driving-video inputs if available; otherwise consider approved-still I2V only after acknowledging weaker spatial control.",
+      "version": null,
+      "model_id": null,
+      "endpoint": null,
+      "input_mode": null,
+      "live_control_support": null,
+      "tradeoff": "A reference or driving blockout can strengthen guidance but cannot guarantee rigid topology, exact intermediate frames or precise timing."
+    },
+    "deterministic_control_route": {
+      "status": "recommended_for_evaluation_not_started",
+      "method": "Build or use approved 3D geometry, verify a navigable path, animate a camera spline and render the background. Preserve this render as a fallback if AI finishing changes the scene.",
+      "integration": null,
+      "availability_and_cost": "Unresolved; a local or cloud Blender route must be identified rather than presumed installed, connected or free.",
+      "tradeoff": "Requires actual geometry or an approved blockout, especially for surfaces not visible in a single reference. Provides explicit camera and topology control."
+    }
+  },
+  "shot_plan": [
+    {
+      "time_seconds": "0-2",
+      "composition": "Eye-level opening view centered on the open curved threshold; foreground curves frame the route and the distant room provides a stable depth anchor.",
+      "camera": "Start a smooth forward dolly on a verified collision-free path. Keep lens and horizon fixed.",
+      "branding": "Original logo and approved text already fully visible in their final screen-space placement."
+    },
+    {
+      "time_seconds": "2-8",
+      "composition": "Pass through the open threshold. Near curved surfaces move past the frame edges while the far room remains spatially coherent.",
+      "camera": "Continue the same forward motion without a cut, orbit, focal-length change or crossing solid surfaces.",
+      "branding": "The same deterministic branding layer remains visible and unchanged."
+    },
+    {
+      "time_seconds": "8-12",
+      "composition": "Reveal the far room and settle facing its far wall or other approved landing composition.",
+      "camera": "Ease the same move gently toward its endpoint, retaining a stable horizon and coherent parallax.",
+      "branding": "The same branding remains visible through the final frame."
+    }
+  ],
+  "reference_plan": [
+    {
+      "asset": "Approved white curved scene image or existing 3D project",
+      "purpose": "Appearance, material, lighting and topology baseline",
+      "status": "not supplied or inspected in this task",
+      "checks": "Resolution, aspect, crop, open passage, hidden surfaces, source defects and authorization"
+    },
+    {
+      "asset": "Deterministic 12-second camera blockout, if a compatible route supports driving video",
+      "purpose": "Movement and timing only",
+      "status": "proposed, not created",
+      "checks": "No cuts, collision-free path, stable lens and horizon, valid duration, matching opening and landing"
+    },
+    {
+      "asset": "Original logo artwork, exact approved website text and required font files or approved typography specification",
+      "purpose": "Deterministic compositing; not generative text references",
+      "status": "not supplied or inspected in this task",
+      "checks": "Exact version, transparent/vector source where available, verbatim copy, placement, sizing, contrast and rights"
+    }
+  ],
+  "conditional_seedance_prompt": {
+    "mode": "Reference generation, only if the chosen live mode supports the listed roles together",
+    "reference_roles": "The approved architecture image supplies appearance, materials and lighting. A verified camera blockout video, if supported, supplies only camera movement and timing. Insert actual confirmed attachment handles after discovery; none are invented here.",
+    "prompt": "Reference roles: preserve the architecture, materials and lighting of the approved scene reference; follow the verified forward camera path if a supported driving reference is provided. Look: white curved architecture with the reference's stable light direction. Action: one uninterrupted eye-level forward dolly through the open curved passage. From the opening view, advance toward and through the threshold, then gently settle facing the approved far-room landing. Near surfaces pass the frame edges while the distant room stays spatially coherent. Keep a fixed lens and level horizon. Continuity: the architecture stays rigid and stationary, with consistent scale, material and lighting throughout. The camera follows open space and never passes through a wall. Produce a clean architectural background without logo, navigation, captions or website copy; those elements will be composited from approved source artwork. Audio: silent.",
+    "i2v_adaptation": "If only I2V is supported, use the approved starting image as the appearance anchor and retain only the motion and continuity instructions. Do not submit unsupported motion-reference inputs or imply that a still describes unseen geometry.",
+    "negative_prompt": "No separate negative-prompt field assumed.",
+    "timing_limit": "The shot timings express approximate intent for generative video; they are not provider keyframes."
+  },
+  "control_separation": {
+    "desired_hard_controls_to_verify": [
+      "One output",
+      "12-second duration or an explicitly accepted route to exact 12-second delivery",
+      "Selected aspect ratio and resolution",
+      "Silent output if exposed",
+      "Supported reference roles and their permitted combinations",
+      "Any actual continuous-shot or camera control exposed by the exact route"
+    ],
+    "soft_prompt_requests": [
+      "Forward dolly, fixed lens, level horizon",
+      "Stable white curved architecture and lighting",
+      "Approximate opening, threshold passage and landing beats"
+    ],
+    "deterministic_requirements": [
+      "Exact source logo and approved website copy on every composed frame",
+      "Exact path and timing when achieved through the 3D route",
+      "Exact delivery duration, encoding and scrub integration after verification"
+    ],
+    "actual_provider_params": null,
+    "params_note": "This proposal is not a submission payload. No IDs, attachment handles, optional fields or live capabilities have been fabricated."
+  },
+  "cost_preparation": {
+    "authorized_numeric_allocation": null,
+    "payment_mode": null,
+    "real_quote": null,
+    "proposed_output_count": 1,
+    "proposed_initial_generation_submissions": 1,
+    "automatic_retries": 0,
+    "stages_to_quote": [
+      "Reference preparation or paid source correction, if needed",
+      "3D/blockout setup and any render charges for the selected integration",
+      "One 12-second background candidate, including reference-video billing if applicable",
+      "Deterministic logo/text composition and final export or render",
+      "Any explicitly justified upscale, reframe or encoding service required for delivery"
+    ],
+    "experiment": "Use the smallest route-compatible experiment that tests the full threshold passage and spatial continuity. A shortened or fast-tier draft is useful only if it tests the same risk; do not assume such a tier exists. Prefer finishing an accepted candidate over automatically purchasing a fresh final generation.",
+    "later_online_preflight": [
+      "Resolve Motion Director and inspect the selected exact workflow/model, tool schema, input roles and account payment modes.",
+      "Confirm source assets and their authorization, crop, ordering and actual identifiers.",
+      "Prepare the complete final request; inspect whether quoting imports/uploads assets or creates media records before calling an estimator.",
+      "Obtain a current all-stage quote or confirmed bounded workflow total; inspect prepared parameters, adjustments and missing-input warnings. Reconcile any duration or crop coercion.",
+      "Ask one concrete spending question using the real total, payment mode, included stages and a proposed one-submission cap; do not use placeholder numbers as a quote.",
+      "Only after actual authorization, create the evidence-backed preflight manifest, run the offline validator, reserve the full quote and submit once. Preserve pending or unknown charges and recover existing jobs instead of resubmitting."
+    ],
+    "preflight_validation": "Not run: this is an offline plan with no live capability record, quote, confirmed media identifiers or generation consent. A fabricated executable manifest would misrepresent readiness."
+  },
+  "qa_plan": {
+    "before_ai_or_render": "Inspect the approved source and every risky intermediate camera pose for open-space clearance and coherent hidden geometry. Test the entire deterministic camera path before optional AI finishing.",
+    "after_generation": "Watch the complete clip at normal speed and inspect the threshold passage, beginning and ending frame by frame. Check rigid topology, perspective, parallax, illumination, flicker, cuts and camera endpoints.",
+    "branding": "Composite from the original source artwork and approved text. Verify the branding layer is present for every output frame and compare spelling, shapes, placement and legibility against the approved sources; do not buy retries to repair AI lettering.",
+    "delivery": "Decode the actual export, verify exact duration and output metadata, and test seeking in both directions at the intended viewport. If used on a website, provide an approved static reduced-motion poster and test mobile framing separately within the eventual scope.",
+    "repair_policy": "Preserve an accepted base. Fix localized grade, crop, duration or overlay defects deterministically. If architecture or spatial travel fails, change to stronger geometric control; any additional paid attempt needs a diagnosed cause, one deliberate change and remaining authorized allocation.",
+    "current_validation": "Plan reviewed against the skill only; no generated media or real model success was evaluated."
+  },
+  "unresolved_inputs": [
+    "Actual scene reference or 3D project and intended opening/landing compositions",
+    "Exact logo artwork, website copy, fonts and branding placement",
+    "Website scrub interaction versus standalone-video delivery, including viewport and responsive requirements",
+    "Live meaning, availability and controls of Motion Director",
+    "Exact Seedance version, model ID, mode, endpoint and supported input combinations",
+    "Live support for 12 seconds, output resolution, aspect ratio, audio, reference duration and seek delivery",
+    "Actual 3D integration and any charges",
+    "User payment choice, numeric budget, full quote and approved attempt scope"
+  ],
+  "actions_performed": {
+    "repository_skill_reads": true,
+    "proposal_file_saved": true,
+    "provider_tools_called": false,
+    "account_writes": false,
+    "uploads": false,
+    "real_estimates": false,
+    "generations": false,
+    "other_research_outputs_inspected": false
+  },
+  "skill_files_actually_read": [
+    "skills/higgsfield-director/SKILL.md",
+    "skills/higgsfield-director/references/routing.md",
+    "skills/higgsfield-director/references/shot-planning.md",
+    "skills/higgsfield-director/references/workflows.md",
+    "skills/higgsfield-director/references/spending.md",
+    "skills/higgsfield-director/references/seedance.md",
+    "skills/higgsfield-director/references/qa-repair.md",
+    "skills/higgsfield-director/references/preflight-contract.md"
+  ]
+}

@@ -1,0 +1,2014 @@
+{
+  "retrieved_at": "2026-10-18",
+  "scope": "Public capability names observed through the connected Higgsfield catalog; not entitlements, prices, defaults or guaranteed future availability",
+  "complete": true,
+  "count": 129,
+  "items": [
+    {
+      "id": "soul_2",
+      "name": "Higgsfield Soul 2.0",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "quality",
+        "style_id",
+        "soul_id"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "soul_cinematic",
+      "name": "Soul Cinema",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "quality",
+        "soul_id"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "gpt_image_2",
+      "name": "GPT Image 2",
+      "provider": "OpenAI",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "quality"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "cinematic_studio_2_5",
+      "name": "Cinema Studio Image 2.5",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "marketing_studio_image",
+      "name": "Marketing Studio Image",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "ms_image",
+      "name": "DTC Ads",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "style_id",
+        "brand_kit_id",
+        "resolution",
+        "quality",
+        "batch_size",
+        "product_ids",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "image_auto",
+      "name": "Auto",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "autosprite",
+      "name": "AutoSprite Animation",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "kind",
+        "name",
+        "video_tier",
+        "frame_count",
+        "frame_size",
+        "remove_bg",
+        "with_sound",
+        "is_humanoid"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "soul_cast",
+      "name": "Soul Cast",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "budget"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "soul_location",
+      "name": "Soul Location",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [],
+      "media_roles": []
+    },
+    {
+      "id": "cinematic_studio_3_0",
+      "name": "Cinema Studio Video 3.0",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "genre",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "image",
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "cinematic_studio_video",
+      "name": "Cinema Studio Video",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "slow_motion",
+        "sound"
+      ],
+      "media_roles": [
+        "image",
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "cinematic_studio_video_v2",
+      "name": "Cinema Studio Video",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "genre",
+        "mode",
+        "sound",
+        "speedramp",
+        "multi_shots",
+        "multi_shot_mode",
+        "cfg_scale",
+        "preset_id"
+      ],
+      "media_roles": [
+        "image",
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "marketing_studio_video",
+      "name": "Marketing Studio",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "generate_audio",
+        "mode",
+        "folder_id",
+        "width",
+        "height",
+        "avatar_ids",
+        "product_ids",
+        "assets",
+        "hook_id",
+        "setting_id"
+      ],
+      "media_roles": [
+        "image",
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "higgsfield_preset",
+      "name": "Higgsfield Preset",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "folder_id",
+        "preset_id"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "sam_3_3d",
+      "name": "SAM 3 3D Objects",
+      "provider": "Meta",
+      "output": "3d",
+      "parameters": [
+        "detection_threshold",
+        "export_textured_glb",
+        "seed"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "image_to_3d",
+      "name": "Image to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "should_texture",
+        "enable_rigging",
+        "enable_animation",
+        "should_remesh",
+        "texture_prompt",
+        "texture_image_url",
+        "target_polycount",
+        "topology",
+        "symmetry_mode",
+        "enable_pbr",
+        "pose_mode",
+        "rigging_height_meters",
+        "animation_action_id",
+        "enable_safety_checker",
+        "seed"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "multi_image_to_3d",
+      "name": "Multi-Image to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "should_texture",
+        "enable_rigging",
+        "enable_animation",
+        "should_remesh",
+        "texture_prompt",
+        "texture_image_url",
+        "target_polycount",
+        "topology",
+        "symmetry_mode",
+        "enable_pbr",
+        "pose_mode",
+        "rigging_height_meters",
+        "animation_action_id",
+        "enable_safety_checker",
+        "seed"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "3d_rigging",
+      "name": "3D Rigging",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "model_url",
+        "height_meters",
+        "enable_animation",
+        "animation_action_id",
+        "enable_safety_checker"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "soul_v2",
+      "name": "Higgsfield Soul 2.0",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "quality",
+        "style_id",
+        "soul_id"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "meshy_image_to_3d",
+      "name": "Image to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "should_texture",
+        "enable_rigging",
+        "enable_animation",
+        "should_remesh",
+        "texture_prompt",
+        "texture_image_url",
+        "target_polycount",
+        "topology",
+        "symmetry_mode",
+        "enable_pbr",
+        "pose_mode",
+        "rigging_height_meters",
+        "animation_action_id",
+        "enable_safety_checker",
+        "seed"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "meshy_multi_image_to_3d",
+      "name": "Multi-Image to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "should_texture",
+        "enable_rigging",
+        "enable_animation",
+        "should_remesh",
+        "texture_prompt",
+        "texture_image_url",
+        "target_polycount",
+        "topology",
+        "symmetry_mode",
+        "enable_pbr",
+        "pose_mode",
+        "rigging_height_meters",
+        "animation_action_id",
+        "enable_safety_checker",
+        "seed"
+      ],
+      "media_roles": [
+        "image"
+      ]
+    },
+    {
+      "id": "meshy_rigging",
+      "name": "3D Rigging",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "model_url",
+        "height_meters",
+        "enable_animation",
+        "animation_action_id",
+        "enable_safety_checker"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "z_image",
+      "name": "Z Image",
+      "provider": "Tongyi-MAI",
+      "output": "image",
+      "parameters": [],
+      "media_roles": []
+    },
+    {
+      "id": "nano_banana",
+      "name": "Nano Banana",
+      "provider": "Google",
+      "output": "image",
+      "parameters": [],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "nano_banana_pro",
+      "name": "Nano Banana Pro",
+      "provider": "Google",
+      "output": "image",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "nano_banana_2_shots",
+      "name": "Nano Banana Pro",
+      "provider": "",
+      "output": "image",
+      "parameters": [],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "nano_banana_2",
+      "name": "Nano Banana 2",
+      "provider": "Google",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "is_inpaint"
+      ],
+      "media_roles": [
+        "image_references",
+        "mask"
+      ]
+    },
+    {
+      "id": "nano_banana_2_1",
+      "name": "Nano Banana 2.1",
+      "provider": "Google",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "is_inpaint",
+        "thinking_level",
+        "enable_web_search",
+        "enable_image_search",
+        "seed"
+      ],
+      "media_roles": [
+        "image_references",
+        "mask",
+        "video_references"
+      ]
+    },
+    {
+      "id": "nano_banana_2_lite",
+      "name": "Nano Banana 2 Lite",
+      "provider": "Google",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "thinking",
+        "is_inpaint"
+      ],
+      "media_roles": [
+        "image_references",
+        "mask"
+      ]
+    },
+    {
+      "id": "seedream_v4_5",
+      "name": "Seedream 4.5",
+      "provider": "Bytedance",
+      "output": "image",
+      "parameters": [
+        "quality"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "flux_2",
+      "name": "FLUX.2",
+      "provider": "Black Forest Labs",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "variant"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "flux_2_pro_outpaint",
+      "name": "FLUX.2 Pro Outpaint",
+      "provider": "Black Forest Labs",
+      "output": "image",
+      "parameters": [
+        "expand_top",
+        "expand_bottom",
+        "expand_left",
+        "expand_right",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "flux_3_image",
+      "name": "FLUX 3 Image",
+      "provider": "Black Forest Labs",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "batch_size",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "flux_3_video",
+      "name": "FLUX 3 Video",
+      "provider": "Black Forest Labs",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "flux_3_video_edit",
+      "name": "FLUX 3 Video Edit",
+      "provider": "Black Forest Labs",
+      "output": "video",
+      "parameters": [
+        "folder_id"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "flux_kontext",
+      "name": "Flux Kontext",
+      "provider": "Black Forest Labs",
+      "output": "image",
+      "parameters": [],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "kling_omni_image",
+      "name": "Kling O1 Image",
+      "provider": "Kling",
+      "output": "image",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "openai_hazel",
+      "name": "OpenAI Hazel",
+      "provider": "OpenAI",
+      "output": "image",
+      "parameters": [
+        "quality"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "gpt_image_2_5",
+      "name": "GPT Image 2.5",
+      "provider": "OpenAI",
+      "output": "image",
+      "parameters": [
+        "variant",
+        "quality",
+        "resolution",
+        "background"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "soul_cinema_studio",
+      "name": "soul_cinema_studio",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "quality",
+        "style_id",
+        "custom_reference_id",
+        "enhance_prompt"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "seedream_v5_lite",
+      "name": "Seedream 5.0 Lite",
+      "provider": "Bytedance",
+      "output": "image",
+      "parameters": [
+        "quality"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "seedream_5_0_flash",
+      "name": "Seedream 5.0 Flash",
+      "provider": "Bytedance",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "width",
+        "height"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "seedream_v5_pro",
+      "name": "Seedream 5.0 Pro",
+      "provider": "Bytedance",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "width",
+        "height",
+        "remove_bg",
+        "is_inpaint"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "3d_jutsu_angles",
+      "name": "3D Jutsu Angles",
+      "provider": "Bytedance",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "width",
+        "height",
+        "remove_bg",
+        "is_inpaint"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "grok_image",
+      "name": "Grok Image",
+      "provider": "xAI",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "mode"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "grok_image_2_0",
+      "name": "Grok Image 2.0",
+      "provider": "xAI",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "quality"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "ideogram_4_5",
+      "name": "Ideogram 4.5",
+      "provider": "Ideogram",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "quality",
+        "magic_prompt",
+        "seed",
+        "batch_size"
+      ],
+      "media_roles": [
+        "image_references",
+        "mask"
+      ]
+    },
+    {
+      "id": "grok_video_v15",
+      "name": "Grok Video 1.5",
+      "provider": "xAI",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration"
+      ],
+      "media_roles": [
+        "start_image",
+        "image_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "grok_video_v15_lite",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "provider": "xAI",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "recraft_v4_1",
+      "name": "Recraft V4.1",
+      "provider": "Recraft",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "model_type",
+        "colors",
+        "background_color"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "recraft_v4_styles",
+      "name": "Recraft V4 Styles",
+      "provider": "Recraft",
+      "output": "image",
+      "parameters": [
+        "style_id",
+        "resolution",
+        "style_match"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "seed_audio",
+      "name": "Seed Audio 1.0",
+      "provider": "ByteDance",
+      "output": "audio",
+      "parameters": [
+        "format",
+        "sample_rate",
+        "speech_rate",
+        "loudness_rate",
+        "pitch_rate",
+        "voice_type",
+        "voice_id"
+      ],
+      "media_roles": [
+        "image_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "qwen_audio_tts",
+      "name": "Qwen Audio 3.0 TTS Flash",
+      "provider": "Alibaba Cloud",
+      "output": "audio",
+      "parameters": [
+        "voice_type",
+        "voice_id",
+        "instruction",
+        "language",
+        "format",
+        "sample_rate",
+        "volume",
+        "speech_rate",
+        "pitch_rate",
+        "seed",
+        "batch_size"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "elevenlabs_v4",
+      "name": "Eleven v4",
+      "provider": "ElevenLabs",
+      "output": "audio",
+      "parameters": [
+        "dialogue",
+        "stability",
+        "similarity_boost",
+        "batch_size"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "elevenlabs_v4_turbo",
+      "name": "Eleven v4 Turbo",
+      "provider": "ElevenLabs",
+      "output": "audio",
+      "parameters": [
+        "dialogue",
+        "stability",
+        "similarity_boost",
+        "batch_size"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "sonilo_music",
+      "name": "Sonilo Music",
+      "provider": "FAL",
+      "output": "audio",
+      "parameters": [
+        "duration"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "mirelo_text_to_audio",
+      "name": "Mirelo Text to Audio",
+      "provider": "FAL",
+      "output": "audio",
+      "parameters": [
+        "duration"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "inworld_text_to_speech",
+      "name": "Inworld Text to Speech",
+      "provider": "FAL",
+      "output": "audio",
+      "parameters": [
+        "voice"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "text2speech_v2",
+      "name": "Text to Speech V2",
+      "provider": "Higgsfield",
+      "output": "audio",
+      "parameters": [
+        "variant",
+        "voice_type",
+        "voice_id"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "image_background_remover",
+      "name": "Image Background Remover",
+      "provider": "",
+      "output": "image",
+      "parameters": [],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "video_background_remover",
+      "name": "Video Background Remover",
+      "provider": "",
+      "output": "video",
+      "parameters": [],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "voice_change",
+      "name": "voice_change",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "voice_id",
+        "voice_type",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video"
+      ]
+    },
+    {
+      "id": "dubbing",
+      "name": "dubbing",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "target_language",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video"
+      ]
+    },
+    {
+      "id": "sync_so",
+      "name": "Sync Lipsync 3",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "sync_mode",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video",
+        "input_audio"
+      ]
+    },
+    {
+      "id": "outpaint",
+      "name": "Outpaint",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "minimax_hailuo",
+      "name": "Minimax Hailuo",
+      "provider": "Hailuo",
+      "output": "video",
+      "parameters": [
+        "variant",
+        "duration",
+        "resolution"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "minimax_h3",
+      "name": "MiniMax H3",
+      "provider": "MiniMax",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "batch_size",
+        "folder_id"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "minimax_h3_max",
+      "name": "MiniMax H3 Max",
+      "provider": "MiniMax",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "batch_size",
+        "folder_id"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "wan2_6",
+      "name": "Wan 2.6 Video",
+      "provider": "Wan",
+      "output": "video",
+      "parameters": [
+        "quality",
+        "duration"
+      ],
+      "media_roles": [
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "seedance1_5",
+      "name": "Seedance 1.5 Pro",
+      "provider": "Bytedance",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "seedance_2_0",
+      "name": "Seedance 2.0",
+      "provider": "Bytedance",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "mode",
+        "bitrate_mode",
+        "genre",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "seedance_2_0_mini",
+      "name": "Seedance 2.0 Mini",
+      "provider": "Bytedance",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "bitrate_mode",
+        "genre",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "seedance_2_5",
+      "name": "Seedance 2.5",
+      "provider": "Bytedance",
+      "output": "video",
+      "parameters": [
+        "mode",
+        "duration",
+        "resolution",
+        "generate_audio",
+        "bitrate_mode",
+        "extension_mode",
+        "draft",
+        "draft_job_id"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "ad_multiplier",
+      "name": "Ad Multiplier",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "mode",
+        "duration",
+        "resolution",
+        "generate_audio",
+        "bitrate_mode",
+        "extension_mode"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "ad_multiplier_v2",
+      "name": "Ad Multiplier Recreate",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "mode",
+        "section"
+      ],
+      "media_roles": [
+        "video_references",
+        "image_references"
+      ]
+    },
+    {
+      "id": "cinematic_studio_video_4_0",
+      "name": "Cinema Studio 4.0",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "mode",
+        "duration",
+        "resolution",
+        "generate_audio",
+        "bitrate_mode",
+        "extension_mode",
+        "era_id",
+        "camera_model_id",
+        "camera_lens_id",
+        "camera_aperture_id",
+        "pacing_id",
+        "genre_id",
+        "light",
+        "light_id",
+        "light_custom",
+        "color_palette"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "draw_to_video",
+      "name": "Draw To Video",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "generate_audio",
+        "enhancer"
+      ],
+      "media_roles": [
+        "video",
+        "image_references",
+        "ref_image"
+      ]
+    },
+    {
+      "id": "reframe",
+      "name": "Reframe",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration"
+      ],
+      "media_roles": [
+        "video_references",
+        "start_image",
+        "image_references"
+      ]
+    },
+    {
+      "id": "topaz_image",
+      "name": "Topaz",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "output_width",
+        "output_height",
+        "face_enhancement",
+        "face_enhancement_creativity",
+        "face_enhancement_strength",
+        "variant",
+        "sharpen",
+        "denoise",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "topaz_image_generative",
+      "name": "Topaz",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "output_width",
+        "output_height",
+        "variant",
+        "autoprompt",
+        "creativity",
+        "texture",
+        "sharpen",
+        "denoise",
+        "face_enhancement",
+        "face_enhancement_creativity",
+        "face_enhancement_strength"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "topaz_hyperion_2_5",
+      "name": "Topaz Hyperion 2.5",
+      "provider": "topaz",
+      "output": "video",
+      "parameters": [
+        "output_format"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "topaz_video",
+      "name": "Topaz",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "enhancement",
+        "frame_interpolation"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "bytedance_video_upscale",
+      "name": "Bytedance Video Upscale",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "fps",
+        "resolution",
+        "preset",
+        "model_version"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "image_decompose",
+      "name": "Image Decompose",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "mode",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "bytedance_image_upscale",
+      "name": "Bytedance Image Upscale",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "remove_bg"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "video_upscale",
+      "name": "Video Upscale",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video"
+      ]
+    },
+    {
+      "id": "video_deflicker",
+      "name": "Video Deflicker",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video"
+      ]
+    },
+    {
+      "id": "clipify",
+      "name": "Clipify",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "urls",
+        "clips_num",
+        "clip_aspect",
+        "subtitle_highlight_hex",
+        "subtitle_position",
+        "subtitle_font",
+        "subtitle_case",
+        "track_face_crop",
+        "max_height",
+        "segment_seconds"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "kling2_6",
+      "name": "Kling 2.6 Video",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "sound"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "kling3_0",
+      "name": "Kling v3.0",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "mode",
+        "sound"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "kling3_0_turbo",
+      "name": "Kling 3.0 Turbo",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "kling_o3_image_reference",
+      "name": "Kling 3.0 Omni",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "mode",
+        "sound",
+        "multi_shots",
+        "multi_prompt"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "kling_o3_flf",
+      "name": "Kling 3.0 Omni (Frames)",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "mode",
+        "sound",
+        "multi_shots",
+        "multi_prompt"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "kling_video_edit",
+      "name": "Kling 3.0 Omni Edit",
+      "provider": "Kling",
+      "output": "video",
+      "parameters": [
+        "mode"
+      ],
+      "media_roles": [
+        "video_references",
+        "image_references"
+      ]
+    },
+    {
+      "id": "happy_horse_video",
+      "name": "Happy Horse Video",
+      "provider": "Happy Horse",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "hf_mult_motion_control",
+      "name": "Genjutsu",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "hf_mult_replace_object",
+      "name": "Genjutsu",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "resolution"
+      ],
+      "media_roles": [
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "kling3_0_motion_control",
+      "name": "Kling 3.0 Motion Control",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "mode",
+        "background_source"
+      ],
+      "media_roles": [
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "grok_video",
+      "name": "Grok Video",
+      "provider": "xAI",
+      "output": "video",
+      "parameters": [
+        "duration"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "gemini_omni",
+      "name": "Gemini Omni Flash",
+      "provider": "Google",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution"
+      ],
+      "media_roles": [
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "gemini_omni_flash_1_1",
+      "name": "Gemini Omni Flash 1.1",
+      "provider": "Google",
+      "output": "video",
+      "parameters": [
+        "mode",
+        "duration",
+        "resolution"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references"
+      ]
+    },
+    {
+      "id": "wan2_7",
+      "name": "Wan 2.7",
+      "provider": "Wan",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "wan3_0",
+      "name": "Wan 3.0",
+      "provider": "Wan",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "generate_audio",
+        "enable_thinking"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "wan3_0_prime",
+      "name": "Wan 3.0 Prime",
+      "provider": "Wan",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "resolution",
+        "generate_audio",
+        "enable_thinking"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "veo3",
+      "name": "Google Veo 3",
+      "provider": "Google",
+      "output": "video",
+      "parameters": [
+        "variant"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "veo3_1",
+      "name": "Google Veo 3.1",
+      "provider": "Google",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "quality",
+        "variant"
+      ],
+      "media_roles": [
+        "start_image"
+      ]
+    },
+    {
+      "id": "veo3_1_lite",
+      "name": "Google Veo 3.1 Lite",
+      "provider": "Google",
+      "output": "video",
+      "parameters": [
+        "duration",
+        "generate_audio"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image"
+      ]
+    },
+    {
+      "id": "depth_anything_video",
+      "name": "Depth Anything Video",
+      "provider": "Depth Anything",
+      "output": "video",
+      "parameters": [
+        "variant",
+        "colormap",
+        "resolution",
+        "max_frames",
+        "side_by_side"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "sam_3_video",
+      "name": "Remove Background",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "apply_mask",
+        "frames_count"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "fps_boost",
+      "name": "FPS Boost",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "variant",
+        "fps"
+      ],
+      "media_roles": [
+        "video_references"
+      ]
+    },
+    {
+      "id": "sam_3_3d_body",
+      "name": "3D Body",
+      "provider": "Meta",
+      "output": "3d",
+      "parameters": [
+        "export_meshes",
+        "include_3d_keypoints",
+        "include_mhr_params"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "tripo_3d",
+      "name": "Text to 3D",
+      "provider": "",
+      "output": "3d",
+      "parameters": [
+        "negative_prompt",
+        "texture",
+        "pbr",
+        "texture_quality",
+        "geometry_quality",
+        "auto_size",
+        "face_limit"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "tripo_h3_1_image_to_3d",
+      "name": "Tripo H3.1 Image to 3D",
+      "provider": "Tripo",
+      "output": "3d",
+      "parameters": [
+        "face_limit",
+        "texture",
+        "pbr",
+        "texture_seed",
+        "texture_quality",
+        "geometry_quality",
+        "quad",
+        "texture_alignment",
+        "auto_size",
+        "orientation"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "tripo_h3_1_multiview_to_3d",
+      "name": "Tripo H3.1 Multiview to 3D",
+      "provider": "Tripo",
+      "output": "3d",
+      "parameters": [
+        "face_limit",
+        "texture",
+        "pbr",
+        "texture_seed",
+        "texture_quality",
+        "geometry_quality",
+        "quad",
+        "texture_alignment",
+        "auto_size",
+        "orientation"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "tripo_p2_image_to_3d",
+      "name": "Tripo P2 Image to 3D",
+      "provider": "Tripo",
+      "output": "3d",
+      "parameters": [
+        "face_limit",
+        "texture",
+        "pbr",
+        "seed",
+        "texture_seed",
+        "texture_quality",
+        "texture_version",
+        "delight",
+        "auto_size",
+        "export_uv",
+        "export_orientation",
+        "quad"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "hunyuan3d_v3_image_to_3d",
+      "name": "Hunyuan3D v3 Image to 3D",
+      "provider": "Tencent",
+      "output": "3d",
+      "parameters": [
+        "enable_pbr",
+        "face_count",
+        "generate_type",
+        "polygon_type"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "meshy_v6_text_to_3d",
+      "name": "Meshy 6 Text to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "mode",
+        "seed",
+        "model_type",
+        "topology",
+        "target_polycount",
+        "should_remesh",
+        "symmetry_mode",
+        "enable_pbr",
+        "pose_mode",
+        "enable_prompt_expansion",
+        "texture_prompt",
+        "texture_image_url",
+        "enable_rigging",
+        "rigging_height_meters",
+        "enable_animation",
+        "animation_action_id",
+        "enable_safety_checker"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "hunyuan3d_v3_1_text_to_3d",
+      "name": "Hunyuan 3D v3.1 Text to 3D",
+      "provider": "Tencent",
+      "output": "3d",
+      "parameters": [
+        "mode",
+        "enable_pbr",
+        "generate_type",
+        "face_count"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "meshy_v5_remesh",
+      "name": "Meshy 5 Remesh",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "model_url",
+        "topology",
+        "target_polycount",
+        "resize_height",
+        "origin_at"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "meshy_v5_retexture",
+      "name": "Meshy 5 Retexture",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "model_url",
+        "text_style_prompt",
+        "image_style_url",
+        "enable_original_uv",
+        "enable_pbr",
+        "enable_safety_checker"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "meshy_v7_image_to_3d",
+      "name": "Meshy 7 Image to 3D",
+      "provider": "Meshy",
+      "output": "3d",
+      "parameters": [
+        "model_type",
+        "topology",
+        "target_polycount",
+        "symmetry_mode",
+        "should_remesh",
+        "should_texture",
+        "enable_pbr",
+        "pose_mode",
+        "texture_prompt",
+        "texture_image_url",
+        "enable_rigging",
+        "rigging_height_meters",
+        "enable_animation",
+        "animation_action_id",
+        "enable_safety_checker",
+        "ultra_mode",
+        "folder_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "cinematic_studio_image",
+      "name": "Cinematic Studio Image",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "resolution",
+        "camera_model_id",
+        "camera_lens_id",
+        "camera_focal_length_id",
+        "camera_aperture_id"
+      ],
+      "media_roles": [
+        "image_references"
+      ]
+    },
+    {
+      "id": "cinematic_studio_video_3_5",
+      "name": "Cinematic Studio Video 3.5",
+      "provider": "",
+      "output": "video",
+      "parameters": [
+        "resolution",
+        "duration",
+        "genre",
+        "generate_audio",
+        "enhance_prompt",
+        "prompt_language",
+        "multi_shots",
+        "multi_shot_mode",
+        "multi_prompt",
+        "camera_style",
+        "light_scheme",
+        "color_grading",
+        "style_prompt"
+      ],
+      "media_roles": [
+        "start_image",
+        "end_image",
+        "image_references",
+        "video_references",
+        "audio_references"
+      ]
+    },
+    {
+      "id": "marketing_studio_2_image",
+      "name": "Marketing Studio Product Shot",
+      "provider": "Higgsfield",
+      "output": "image",
+      "parameters": [
+        "type",
+        "style_id",
+        "preset_id",
+        "notes",
+        "want_person",
+        "brand_kit_id",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_images",
+        "product_image",
+        "character_photo",
+        "model_image"
+      ]
+    },
+    {
+      "id": "marketing_studio_v2_video",
+      "name": "Marketing Studio Video",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "type",
+        "style_id",
+        "preset_id",
+        "brand_url",
+        "duration",
+        "resolution",
+        "generate_audio",
+        "product_description",
+        "user_context",
+        "delivery_specs",
+        "mode_id",
+        "product_ids",
+        "medias",
+        "product_url",
+        "product_id",
+        "ad_reference_id",
+        "avatar_id",
+        "include_reference_video",
+        "web_product_id",
+        "device",
+        "batch_size",
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_images",
+        "product_photo",
+        "character_photo",
+        "location_photo",
+        "avatars"
+      ]
+    },
+    {
+      "id": "marketing_studio_v2_reference2video",
+      "name": "Marketing Studio Reference Video",
+      "provider": "Higgsfield",
+      "output": "video",
+      "parameters": [
+        "folder_id"
+      ],
+      "media_roles": [
+        "input_video",
+        "character_image",
+        "product_image"
+      ]
+    },
+    {
+      "id": "cinematic_studio_soul_cast",
+      "name": "Cinematic Studio Soul Cast",
+      "provider": "",
+      "output": "image",
+      "parameters": [
+        "budget"
+      ],
+      "media_roles": []
+    },
+    {
+      "id": "cinematic_studio_soul_location",
+      "name": "Cinematic Studio Soul Location",
+      "provider": "",
+      "output": "image",
+      "parameters": [],
+      "media_roles": []
+    }
+  ]
+}

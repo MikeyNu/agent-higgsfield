@@ -1,0 +1,73 @@
+{
+  "task_id": "launch-demo",
+  "work_mode": "offline synthetic-fixture analysis only",
+  "live_calls_or_generation_submitted": false,
+  "skill_files_read": [
+    "skills/higgsfield-director/SKILL.md",
+    "skills/higgsfield-director/references/routing.md",
+    "skills/higgsfield-director/references/spending.md",
+    "skills/higgsfield-director/references/flux.md",
+    "skills/higgsfield-director/references/preflight-contract.md"
+  ],
+  "response": {
+    "decision": "Do not rerun the uncertain submission. Recover and reconcile the existing attempt first; prepare the requested FLUX.2 adaptation without generating.",
+    "ledger": {
+      "approved_ceiling_credits": "40",
+      "confirmed_charged_credits": "12",
+      "unknown_attempt_reserved_credits": "15",
+      "total_committed_credits": "27",
+      "currently_available_credits_including_finishing": "13",
+      "approved_max_generation_attempts": 3,
+      "confirmed_prior_attempts": 1,
+      "uncertain_submitted_attempts": 1,
+      "attempts_used_or_reserved": 2,
+      "remaining_generation_attempts": 1,
+      "qualification": "The remaining attempt is a capacity calculation, not permission to bypass the unresolved submission. Keep the 15-credit reservation and attempt counted until authoritative reconciliation. Do not infer a refund, failure, or release from a timeout, missing job ID, or the user's guess. A zero-credit later generation still consumes an attempt. Preserve all attempt history after reconciliation."
+    },
+    "next_actions": [
+      "Retain the timed-out request's exact settings, input identities, quote, submission time, local request ID and fingerprint. Recover its provider job through supported status/history operations using available identifiers. A local fingerprint is not a provider idempotency key.",
+      "If recovered, poll or inspect that job and reconcile billing using authoritative evidence. If it completed, preserve and inspect its output before considering additional generation. Do not replay the request merely because its response or job ID was lost.",
+      "If no supported recovery path can establish the outcome, stop execution and report the uncertainty. Do not change the prompt, model, task ID, payment mode or ledger to sidestep the unresolved submission.",
+      "For a subsequent authorized FLUX image, use the exact FLUX.2 model ID and submitting schema supplied by current metadata; inspect tool-level parameter mappings. Do not invent an identifier, variant, resolution or optional parameter absent from the fixture.",
+      "Prepare one candidate with the original scene and references preserved and the hand-anatomy request expressed positively. Omit negative_prompt from all submitted arguments.",
+      "Request the route's current Unlimited eligibility/payment response and exact quote for the complete final request, inspecting any prepared parameters or coercions. use_unlim being exposed is not evidence of entitlement or zero cost. The earlier 15-credit quote does not price the changed FLUX.2 request.",
+      "Only after recovery, verified eligibility, a zero-credit Unlimited quote, matching final parameters and all required input readiness may execution proceed under existing authorization. Cover finishing within the remaining allocation, run the offline preflight against real evidence, honor tool gates, serialize ledger check/reservation/submission, reserve the next attempt before submitting once, and retain the returned provider job ID."
+    ],
+    "payment": {
+      "next_generation_payment_constraint": "Unlimited only, with zero credit charge verified on the actual MCP route",
+      "user_has_authorized_requesting_unlimited": true,
+      "unlimited_entitlement_verified": false,
+      "zero_credit_quote_verified": false,
+      "unlimited_metadata_is_insufficient": true,
+      "credit_fallback_authorized": false,
+      "entitlement_choice_handling": "If the server presents a verified Unlimited choice consistent with the user's instruction, select that choice without asking the user to repeat permission. A payment-choice response is not a submitted generation. If Unlimited is unavailable or would charge credits, stop; do not select credits, purchase credits or upgrade a plan.",
+      "remaining_budget_effect": "If the next generation is genuinely zero-credit Unlimited, it does not consume the 13 available credits, but consumes the last remaining generation attempt. The unknown 15-credit reservation remains untouched until reconciled. The 13 credits must still cover any authorized billable finishing or other remaining task stages.",
+      "old_quote_comparison": "A 15-credit retry would exceed the currently uncommitted 13 credits by 2, independently of the new Unlimited-only payment restriction. No assumption that it failed may create budget headroom."
+    },
+    "prompt_adaptation": {
+      "selected_family": "FLUX.2",
+      "unsupported_parameter_to_omit": "negative_prompt",
+      "unsupported_requested_value": "no extra fingers",
+      "positive_prompt_addition": "Each visible hand has natural anatomy and proportions, with one thumb and four distinct fingers arranged naturally.",
+      "composition": "Keep the task's subject and action first, then essential context/style, followed by the positive hand-anatomy detail. Preserve the existing brief and references; do not invent scene content.",
+      "limitation": "This expresses the intended appearance and does not guarantee correct anatomy. Inspect hands at delivery size; a localized defect may call for a supported edit within the remaining authorization."
+    },
+    "necessary_authorization": {
+      "repeat_existing_40_credit_3_attempt_approval": false,
+      "repeat_model_change_approval": false,
+      "repeat_unlimited_choice_approval": false,
+      "reason": "The existing task allocation remains valid, including finishing. The current user instruction already selects FLUX and Unlimited for the next image. Routine positive-prompt adaptation does not require a new permission question.",
+      "ask_only_if": [
+        "A concrete, fully prepared alternative would use credits for the next generation after Unlimited proves unavailable; obtain explicit permission for the payment-mode change.",
+        "The complete concrete alternative would exceed the remaining task ceiling or attempt cap; obtain an explicit bounded amendment after reconciliation and a current quote.",
+        "The server proposes a material deliverable change outside the existing brief or a purchase/upgrade is actually requested as an alternative; obtain the appropriate explicit authorization before proceeding."
+      ],
+      "current_gate": "Recovery and verification are missing, not a repetition of settled user consent. Do not ask for a new spending approval based on invented prices or use approval to treat an unknown provider outcome as failed."
+    },
+    "preflight": {
+      "executed": false,
+      "reason": "No final exact submitting request, authoritative recovery, real quote or entitlement evidence exists in this offline fixture. Do not fabricate these inputs or report a passing guard as evidence of billing or consent."
+    },
+    "suggested_user_response": "I cannot safely rerun the submission while its outcome is unknown. I will first recover the existing job and keep its 15 credits reserved. With 12 already charged, that leaves 13 credits and one generation attempt within your approval. Your next image is authorized for Unlimited only, but the route must confirm eligibility and a zero-credit quote before submission. FLUX.2 does not accept negative_prompt, so I will express the hand requirement positively: ‘Each visible hand has natural anatomy and proportions, with one thumb and four distinct fingers arranged naturally.’ No credit fallback or plan upgrade is authorized."
+  }
+}

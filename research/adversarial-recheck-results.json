@@ -1,0 +1,521 @@
+{
+  "run_at": "2026-10-18T22:26:40.849752+00:00",
+  "script_sha256": "096df8296cfe7571ddf3cdaef3e2813b02303b4844fdb995b74d4ce8fa10ac55",
+  "cases": [
+    {
+      "name": "00_valid_complete_control",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "01_numeric_credit_precision_bypass",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "quote.charge_credits: must be a finite nonnegative credit amount encoded as a decimal string or integer"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "01b_exact_string_credit_blocks",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "budget: 0 reserved/charged + 0.10000000000000000000000000001 exceeds 0.1 credits"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "02_null_media_pointer_bypass",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "media slot pointer: must be a valid JSON pointer to a discovered parameter"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "02b_valid_media_pointer_blocks",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "media: unconfirmed input for role first_frame"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "03_inconsistent_task_id_evades_totals",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "ledger: fingerprint conflicts with the current task_id"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "03b_consistent_task_id_blocks",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "budget: 12.5 reserved/charged + 12.5 exceeds 12.5 credits",
+          "attempts: 1 prior + 1 exceeds authorized 1"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "04_nested_fixed_value_type_mismatch",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "params/billing: must equal discovered fixed value"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "7e1b7cb45bc929b371bf47aad7608241125667e44848430f211ebbd7e73fb4d3"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "04b_nested_enum_type_mismatch",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "params/options: not a discovered option; aliases are not inferred"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "14f94f9c39ba8341933147e2a813adfa38481e9bf7e3b9f9a4c66e2e825bd6ff"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "04c_nested_media_type_mismatch",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "media: confirmation must bind the exact submitted parameter value"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "78aca4df811fcdc3d0e73a2bcd573f1eb5a2deed04e656cf98e090736e3ca84f"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "05_unsupported_constraint_on_unused_parameter",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "capability.params_schema/unused: unknown field pattern"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "06_invalid_conflict_pointers_ignored",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "capability.conflicts: must be a valid JSON pointer to a discovered parameter",
+          "capability.conflicts: must be a valid JSON pointer to a discovered parameter"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "07_two_outputs_one_authorized_attempt",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 outputs exceeds per-submission limit 1"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "08_unpaired_surrogate_cli_crash",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "manifest: unknown field \ud800"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "money_float_quote",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "quote.charge_credits: must be a finite nonnegative credit amount encoded as a decimal string or integer"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "money_float_consent",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "consent.ceiling_credits: must be a finite nonnegative credit amount encoded as a decimal string or integer",
+          "budget: 0 reserved/charged + 12.5 exceeds 0 credits"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "money_float_ledger",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "ledger.amount_credits: must be a finite nonnegative credit amount encoded as a decimal string or integer"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "money_exact_50_digit_boundary",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "money_exact_50_digit_overrun",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "budget: 1E-50 reserved/charged + 1 exceeds 1 credits"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "output_exact_total_boundary",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "output_total_overrun",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 0 prior + 2 exceeds authorized 1"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "fixed_output_valid_control",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "1bd8a8835fe4f8f5150e77889ee6fdf2b997b5c2444aa485e05b0810d96f5fb6"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "fixed_output_batch_overrun",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 outputs exceeds per-submission limit 1"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "1bd8a8835fe4f8f5150e77889ee6fdf2b997b5c2444aa485e05b0810d96f5fb6"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "output_ledger_charged",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 prior + 1 exceeds authorized 2"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "output_ledger_reserved",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 prior + 1 exceeds authorized 2"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "output_ledger_unknown",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 prior + 1 exceeds authorized 2"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "remaining_same_fingerprint_output_undercount",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "ledger.output_count: must match the current request count for the same fingerprint"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "remaining_consistent_output_count_blocks",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "outputs: 2 prior + 2 exceeds authorized 3"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "same_request_task_scoped_retry_valid",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "same_request_request_scoped_retry_valid",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "0019c8476da103264573157d5b4df9bc581e5479f3745b6412a5ee2ec4bd5a82"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "changed_count_task_scoped_retry_valid",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "7afc9ebda77b01e2433936a30b9e61d32ad5bc8988289067f401a51cabb9d883"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "historical_output_count_conflict",
+      "returncode": 2,
+      "result": {
+        "ok": false,
+        "errors": [
+          "ledger.output_count: one fingerprint cannot have conflicting requested output counts"
+        ],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    },
+    {
+      "name": "historical_output_count_consistent_valid",
+      "returncode": 0,
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "Advisory only: verify live controls, actual consent and ledger completeness before submitting."
+        ],
+        "fingerprint": "31300065fc5c33d41707eff56175581bbd311bca2dc19c6a8409ca9279853513"
+      },
+      "missing_field_errors": [],
+      "stderr": ""
+    }
+  ]
+}

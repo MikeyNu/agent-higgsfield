@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Director"
+  short_description: "Model-aware generation with strict credit controls"
+  default_prompt: "Use $higgsfield-director to plan and produce my media with model-specific guidance and a confirmed spending limit."

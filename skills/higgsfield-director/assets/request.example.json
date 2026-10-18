@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "request_id": "example-attempt-02",
+  "request": {
+    "task_id": "example-nu-labs-camera-study",
+    "tool": "EXAMPLE_ONLY.video_generate",
+    "model": "EXAMPLE_ONLY.discovered-model-id",
+    "payment_mode": "credits",
+    "params": {
+      "model": "EXAMPLE_ONLY.discovered-model-id",
+      "prompt": "One continuous slow forward camera move. The stationary matte white sculpture retains its geometry. Soft daylight remains constant. No cuts.",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "count": 1,
+      "first_frame": "attachment://example-approved-frame",
+      "credit_fallback": false
+    }
+  },
+  "capability": {
+    "checked_at": "2000-01-01T00:00:00Z",
+    "source": "ILLUSTRATIVE ONLY. Replace with the current tool schema and account UI evidence.",
+    "tool": "EXAMPLE_ONLY.video_generate",
+    "model": "EXAMPLE_ONLY.discovered-model-id",
+    "payment_modes": ["credits"],
+    "model_pointer": "/model",
+    "params_schema": {
+      "type": "object",
+      "required": ["model", "prompt", "duration", "aspect_ratio", "count", "first_frame", "credit_fallback"],
+      "properties": {
+        "model": {"type": "string", "enum": ["EXAMPLE_ONLY.discovered-model-id"]},
+        "prompt": {"type": "string", "minLength": 1, "maxLength": 1000},
+        "duration": {"type": "integer", "enum": [5, 10]},
+        "aspect_ratio": {"type": "string", "enum": ["16:9", "9:16"]},
+        "count": {"type": "integer", "minimum": 1, "maximum": 2},
+        "first_frame": {"type": "string", "minLength": 1},
+        "credit_fallback": {"type": "boolean"}
+      }
+    },
+    "bindings": {"duration": "/duration", "ratio": "/aspect_ratio", "count": "/count"},
+    "outputs_per_submission": null,
+    "media_slots": {"first_frame": {"pointer": "/first_frame"}},
+    "fixed_values": {"/credit_fallback": false},
+    "conflicts": []
+  },
+  "quote": {
+    "checked_at": "2000-01-01T00:00:00Z",
+    "source": "ILLUSTRATIVE ONLY. Replace with the exact live all-output charge or bounded maximum.",
+    "request_fingerprint": "RECOMPUTE_AFTER_FINAL_REQUEST",
+    "payment_mode": "credits",
+    "charge_credits": "12.5",
+    "includes_all_outputs": true,
+    "fallback": false
+  },
+  "consent": {
+    "intent": "plan",
+    "source": "ILLUSTRATIVE ONLY. No authorization exists in this example.",
+    "scope": {"task_id": "example-nu-labs-camera-study"},
+    "approved_models": ["EXAMPLE_ONLY.discovered-model-id"],
+    "approved_tools": ["EXAMPLE_ONLY.video_generate"],
+    "permitted_payment_modes": ["credits"],
+    "ceiling_credits": "25",
+    "max_attempts": 2,
+    "max_outputs": 2,
+    "max_outputs_per_submission": 1
+  },
+  "media": [
+    {"role": "first_frame", "pointer": "/first_frame", "value": "attachment://example-approved-frame", "confirmed": false, "source": "Replace with actual authorized asset reference."}
+  ],
+  "coercions": [],
+  "ledger": [
+    {"request_id": "example-attempt-01", "task_id": "example-nu-labs-camera-study", "request_fingerprint": "example-previous-fingerprint", "status": "charged", "amount_credits": "10", "output_count": 1}
+  ]
+}

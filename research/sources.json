@@ -1,0 +1,1174 @@
+{
+  "research_date": "2026-10-19",
+  "timezone": "Africa/Johannesburg",
+  "source_count": 81,
+  "sources": [
+    {
+      "id": "V01",
+      "title": "Kling AI image-to-video guide",
+      "publisher": "Kling AI",
+      "url": "https://kling.ai/quickstart/image-to-video-guide",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "I2V emphasizes subject/background movement, simple language and plausible motion. Large deviations from the input can introduce cuts."
+      ],
+      "caveats": [
+        "Older generic Kling guide; not proof of current 3.0 or 4.0 field support."
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "Kling 3.0 on Higgsfield user guide",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/blog/Kling-3.0-is-on-Higgsfield-User-Guide-AI-Video-Generation",
+      "type": "platform-guide",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents optional start/end inputs, per-shot prompts and durations, audio toggle and Elements."
+      ],
+      "caveats": [
+        "Other Higgsfield blogs disagree on shot maximum; inspect live route."
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "How do I use Kling?",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-kling",
+      "type": "platform-help",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Lists separate Kling generation, edit and motion-control variants. Motion references should avoid cuts and show relevant limbs."
+      ],
+      "caveats": [
+        "Family guide does not establish every variant's input combination."
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "Kling 4.0 User Guide",
+      "publisher": "Kling AI",
+      "url": "https://kling.ai/quickstart/kling-4-model-user-guide",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents reference roles, separate Omni/Keyframes modes, up to ten keyframes and descriptive prompting."
+      ],
+      "caveats": [
+        "Provider only. Not in root's current 129-entry Higgsfield tool catalog. Some page features say coming soon."
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "Seedance 2.0 official launch",
+      "publisher": "ByteDance Seed",
+      "url": "https://seed.bytedance.com/en/blog/seedance-2-0-official-launch",
+      "type": "provider-announcement",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents multimodal references and storyboard/reference-role examples with 15-second generation."
+      ],
+      "caveats": [
+        "Provider capability and marketing examples do not establish Higgsfield feature exposure or success rate."
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "How do I use Seedance?",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-seedance",
+      "type": "platform-help",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Describes references versus Elements, short drafts and full-clip review, plus mode-specific version differences."
+      ],
+      "caveats": [
+        "Generic 4K instructions conflict with 2.5 table. Live settings decide. API/Canvas/MCP credits differ from web unlimited."
+      ]
+    },
+    {
+      "id": "V07",
+      "title": "Seedance 2.5 prompting guide",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/blog/seedance-2-5-prompting-guide",
+      "type": "platform-tutorial",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Uses labeled global style, scene, characters, shots and audio sections and reports repeated prompt-category tests."
+      ],
+      "caveats": [
+        "Claim of 50 reference images conflicts with provider and platform help; do not adopt."
+      ]
+    },
+    {
+      "id": "V08",
+      "title": "Introducing Seedance 2.5",
+      "publisher": "ByteDance Seed",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "type": "provider-announcement",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents 30-second generation; 30 images, ten videos, ten audio references; clay-render referencing and time-based editing."
+      ],
+      "caveats": [
+        "Claims describe provider capability, not actual Higgsfield route. Results still need review."
+      ]
+    },
+    {
+      "id": "V09",
+      "title": "Seedance 2.5 reference-to-video API reference",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/bytedance/seedance-2.5/reference-to-video/api-reference",
+      "type": "platform-api-schema",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Route lists image/video/audio arrays, 4-30 seconds, 480p/720p/1080p and generate_audio."
+      ],
+      "caveats": [
+        "Snapshot only; schema and quoting on active surface must be rechecked."
+      ]
+    },
+    {
+      "id": "V10",
+      "title": "Seedance 2.5 reference-to-video playground",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/bytedance/seedance-2.5/reference-to-video/playground",
+      "type": "platform-api-pricing",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Explains token billing including input and output video duration for video-reference jobs."
+      ],
+      "caveats": [
+        "Do not copy promotional prices into a durable skill or treat as web credit rates."
+      ]
+    },
+    {
+      "id": "V11",
+      "title": "How to use Google Veo 3.1",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/blog/How-to-Use-Google-Veo-3.1-Complete-Guide-for-the-New-Model",
+      "type": "platform-guide",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Distinguishes Standard and Fast and describes start/end and multireference modes."
+      ],
+      "caveats": [
+        "2025 integration guide may be stale. Marketing consistency claims are not guarantees."
+      ]
+    },
+    {
+      "id": "V12",
+      "title": "Generate videos with Veo 3.1 in Gemini API",
+      "publisher": "Google",
+      "url": "https://ai.google.dev/gemini-api/docs/veo",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents first/last frames, subject references, audio and extension routes."
+      ],
+      "caveats": [
+        "Provider API input combinations do not automatically exist in Higgsfield."
+      ]
+    },
+    {
+      "id": "V13",
+      "title": "Video generation prompt guide",
+      "publisher": "Google Cloud",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Audio direction can be separate sentences. Negative fields should describe unwanted concepts instead of no/don't commands."
+      ],
+      "caveats": [
+        "Use negative syntax only when a compatible field exists; audio/version details are mixed across guide sections."
+      ]
+    },
+    {
+      "id": "V14",
+      "title": "Sora 2 prompt guide",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/sora-2-prompt-guide",
+      "type": "platform-tutorial",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Recommends shot blocks, clear depth anchors, one camera/subject action per beat and brief separated dialogue."
+      ],
+      "caveats": [
+        "Tutorial does not establish seed, end-frame or negative-prompt controls."
+      ]
+    },
+    {
+      "id": "V15",
+      "title": "Sora 2 Prompting Guide",
+      "publisher": "OpenAI",
+      "url": "https://developers.openai.com/cookbook/examples/sora/sora2_prompting_guide",
+      "type": "archived-provider-guide",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Explains stochastic output, concise shots and setting container parameters outside prose."
+      ],
+      "caveats": [
+        "Page is explicitly archived. Use methodology only until active availability/schema verified."
+      ]
+    },
+    {
+      "id": "V16",
+      "title": "Video generation prompt guide",
+      "publisher": "Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/text-to-video-prompt",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "T2V covers subject, scene, motion, aesthetics and style; I2V focuses on motion/camera."
+      ],
+      "caveats": [
+        "Version-specific audio/mode differences require current route check."
+      ]
+    },
+    {
+      "id": "V17",
+      "title": "Wan 3.0 video generation prompt guide",
+      "publisher": "Alibaba Cloud",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/wan3-video-generation-prompt-guide",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Describes asset roles, numbered timestamp blocks, targeted negatives and mutually exclusive first/end versus all-reference modes."
+      ],
+      "caveats": [
+        "Provider prompting guidance does not prove frame-accurate output or Higgsfield controls."
+      ]
+    },
+    {
+      "id": "V18",
+      "title": "Wan 3.0 Prime reference-to-video API reference",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/alibaba/wan-3.0-prime/reference-to-video/api-reference",
+      "type": "platform-api-schema",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Lists seed, 2-30 seconds, three resolutions, sound/thinking and media inputs; document/page inputs cannot combine."
+      ],
+      "caveats": [
+        "Exact route snapshot only. Thinking and reference inputs may affect cost."
+      ]
+    },
+    {
+      "id": "V19",
+      "title": "Wan 2.6 reference-to-video API reference",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/wan/v2.6/reference-to-video/api-reference",
+      "type": "platform-api-schema",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "This route lists 5/10-second choices and requires video_urls."
+      ],
+      "caveats": [
+        "Broader family marketing of 15-second clips does not override this route."
+      ]
+    },
+    {
+      "id": "V20",
+      "title": "Create Text-to-Video Generation Task",
+      "publisher": "MiniMax",
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-t2v",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents bracketed camera commands, simultaneous versus sequential movement and optional prompt optimization."
+      ],
+      "caveats": [
+        "Hailuo 2.3/02 documentation. Do not automatically apply all parameter limits to H3."
+      ]
+    },
+    {
+      "id": "V21",
+      "title": "Video Generation",
+      "publisher": "MiniMax",
+      "url": "https://platform.minimax.io/docs/guides/video-generation",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "H3 has first/end-frame and reference modes with labeled roles and camera cues; provider offers 768P/2K."
+      ],
+      "caveats": [
+        "Provider output options differ from observed Higgsfield H3 route."
+      ]
+    },
+    {
+      "id": "V22",
+      "title": "MiniMax H3 reference-to-video API reference",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/minimax/h3/reference-to-video/api-reference",
+      "type": "platform-api-schema",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Observed route lists 5-15 seconds, reference media arrays and 2K only."
+      ],
+      "caveats": [
+        "Do not advertise 768p Higgsfield H3 drafts without active route evidence."
+      ]
+    },
+    {
+      "id": "V23",
+      "title": "Grok video overview",
+      "publisher": "xAI",
+      "url": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "type": "provider-documentation",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Separates version1.5, lite and older edit/extension model; references and pinned-frame features differ."
+      ],
+      "caveats": [
+        "Provider model controls must be independently confirmed on Higgsfield."
+      ]
+    },
+    {
+      "id": "V24",
+      "title": "Grok Imagine on Higgsfield",
+      "publisher": "Higgsfield",
+      "url": "https://higgsfield.ai/grok-imagine",
+      "type": "platform-product-page",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Documents image references and natural-language scene/sound prompting."
+      ],
+      "caveats": [
+        "Pixel-perfect preservation wording is marketing; inspect actual outputs."
+      ]
+    },
+    {
+      "id": "V25",
+      "title": "Kling 3.0 4K text-to-video API reference",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/models/kling-video/v3.0/4k/text-to-video/api-reference",
+      "type": "platform-api-schema",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Lists sound, duration, elements, cfg_scale, multi_shots and multi_prompt."
+      ],
+      "caveats": [
+        "No universal negative_prompt field established. Nested multi_prompt structure needs current schema."
+      ]
+    },
+    {
+      "id": "V26",
+      "title": "Higgsfield video model catalog",
+      "publisher": "Higgsfield",
+      "url": "https://open.higgsfield.ai/explore/video",
+      "type": "platform-catalog",
+      "accessed_on": "2026-10-19",
+      "access_timezone": "Africa/Johannesburg",
+      "claims": [
+        "Lists current families including Seedance2.5, Kling3.0, MiniMaxH3 and Wan3.0Prime."
+      ],
+      "caveats": [
+        "Public API catalog is a different surface from MCP and web. Quote and availability can differ."
+      ]
+    },
+    {
+      "id": "I01",
+      "title": "Higgsfield MCP image model catalog",
+      "url": "tool:mcp__codex_apps__higgsfield_models_list",
+      "evidence_type": "live_schema",
+      "checked_date": "2026-10-18",
+      "supports": "Current IDs, parameters and input roles; sampled all image entries with limit=100 and has_more=false.",
+      "caveat": "Snapshot can change; marketing and provider controls are not identical.",
+      "web_ref": null
+    },
+    {
+      "id": "I02",
+      "title": "Google Gemini image generation",
+      "url": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Prompt specificity, purpose, sequential composition, small edits, text-first workflow and reference limits.",
+      "caveat": "Provider API limits do not automatically carry to Higgsfield.",
+      "web_ref": "turn22view3"
+    },
+    {
+      "id": "I03",
+      "title": "Google DeepMind Gemini Image prompt guide",
+      "url": "https://deepmind.google/models/gemini-image/prompt-guide/",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Image composition, subject, style, setting and mood are prompt dimensions.",
+      "caveat": "Guidance cannot guarantee exact placements.",
+      "web_ref": "turn9search5"
+    },
+    {
+      "id": "I04",
+      "title": "OpenAI Image prompting",
+      "url": "https://developers.openai.com/api/docs/guides/image-prompting",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "GPT Image 2.5 family distinction; exact text, reference roles, local edits and acceptance checks.",
+      "caveat": "Higgsfield request keys differ from provider API keys.",
+      "web_ref": "turn28view1"
+    },
+    {
+      "id": "I05",
+      "title": "OpenAI Image generation limitations",
+      "url": "https://developers.openai.com/api/docs/guides/image-generation",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Precise typography, composition and recurring brand/character consistency remain limitations.",
+      "caveat": "Do not promise exactness from detailed prompting.",
+      "web_ref": "turn27search0"
+    },
+    {
+      "id": "I06",
+      "title": "Black Forest Labs FLUX.2 prompting",
+      "url": "https://docs.bfl.ai/guides/prompting_guide_flux2",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Prioritize key subject details; natural language or JSON; object-specific colors; multi-reference roles.",
+      "caveat": "Provider guidance/steps/upsampling settings not all in Higgsfield schema.",
+      "web_ref": "turn13view0"
+    },
+    {
+      "id": "I07",
+      "title": "BFL FLUX.2 negative prompting",
+      "url": "https://help.bfl.ai/articles/7734566352-does-flux-2-support-negative-prompting",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "FLUX.2 does not support negative prompts; describe intended appearance positively.",
+      "caveat": "Does not establish other models' negative-prompt behavior.",
+      "web_ref": "turn9search8"
+    },
+    {
+      "id": "I08",
+      "title": "ByteDance Seedream 4.0/4.5/5.0 Lite prompt guide",
+      "url": "https://docs.volcengine.com/docs/ark/seedream-4-0-5-0-prompt-guide?lang=zh",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Concise natural language, explicit multi-reference roles, sketch layout preservation.",
+      "caveat": "Chinese indexed excerpt accessible; English page required JavaScript. Version scope excludes untested Pro/Flash equivalence.",
+      "web_ref": "turn27search6"
+    },
+    {
+      "id": "I09",
+      "title": "ByteDance introducing Seedream 5.0 Pro",
+      "url": "https://seed.bytedance.com/en/blog/beyond-generation-it-understands-design-introducing-seedream-5-0-pro",
+      "evidence_type": "provider_release",
+      "checked_date": "2026-10-18",
+      "supports": "Spatial grounding and interactive local editing described by developer.",
+      "caveat": "Capability claims are not objective pixel-perfect guarantees.",
+      "web_ref": "turn16search8"
+    },
+    {
+      "id": "I10",
+      "title": "Higgsfield Seedream 5.0 Pro",
+      "url": "https://higgsfield.ai/seedream-5.0-pro",
+      "evidence_type": "platform_product",
+      "checked_date": "2026-10-18",
+      "supports": "Public Pro product description and local edit workflow.",
+      "caveat": "Page internally says both 2K and 4K; current MCP reports up to 2k.",
+      "web_ref": "turn16search2"
+    },
+    {
+      "id": "I11",
+      "title": "Higgsfield Soul Help Center",
+      "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-soul-to-generate-images",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Soul family differences; web reference disables prompt; Moodboards, Soul HEX and ID.",
+      "caveat": "Web-specific behavior, check MCP independently.",
+      "web_ref": "turn17search4"
+    },
+    {
+      "id": "I12",
+      "title": "Higgsfield Cinema Studio Help Center",
+      "url": "https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-cinema-studio",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Versioned studio surface and 4.0 Director's Panel, references, edit and extend modes.",
+      "caveat": "Web mode availability does not establish connector parity.",
+      "web_ref": "turn16search4"
+    },
+    {
+      "id": "I13",
+      "title": "Higgsfield Genjutsu",
+      "url": "https://higgsfield.ai/genjutsu",
+      "evidence_type": "platform_product",
+      "checked_date": "2026-10-18",
+      "supports": "Motion Transfer vs Object Swap; references and source-video roles.",
+      "caveat": "Maximums and prices are dynamic.",
+      "web_ref": "turn5search4"
+    },
+    {
+      "id": "I14",
+      "title": "Higgsfield DoP Help Center",
+      "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-dop",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Native image-to-video model with preset motion blueprint.",
+      "caveat": "Do not equate with Motion Director or Kling Motion Control.",
+      "web_ref": "turn17search1"
+    },
+    {
+      "id": "I15",
+      "title": "Higgsfield live Genjutsu recipe",
+      "url": "tool:mcp__codex_apps__higgsfield_get_preset_instructions?preset=/genjutsu",
+      "evidence_type": "live_recipe",
+      "checked_date": "2026-10-18",
+      "supports": "Separate direct transfer, replacement and styles routes; IDs, media roles and read-before-run workflow.",
+      "caveat": "Catalog lookup is not authorization; re-read before production.",
+      "web_ref": null
+    },
+    {
+      "id": "I16",
+      "title": "Higgsfield Katana overview",
+      "url": "https://higgsfield.ai/blog/higgsfield-katana",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Reference edit supplies shot order, pacing and cuts; asset photos provide subjects.",
+      "caveat": "Marketing explanation is narrower than live recipe's source-footage editing path.",
+      "web_ref": "turn6search2"
+    },
+    {
+      "id": "I17",
+      "title": "Higgsfield live Katana recipe",
+      "url": "tool:mcp__codex_apps__higgsfield_get_preset_instructions?preset=/katana",
+      "evidence_type": "live_recipe",
+      "checked_date": "2026-10-18",
+      "supports": "Editing versus reference-remake distinction; shot analysis, EDL, preview and final verification.",
+      "caveat": "Research lookup does not start session or spend generation credits.",
+      "web_ref": null
+    },
+    {
+      "id": "I18",
+      "title": "Higgsfield Motion Control web surface",
+      "url": "https://higgsfield.ai/ai/video/motion",
+      "evidence_type": "platform_ui",
+      "checked_date": "2026-10-18",
+      "supports": "Kling Motion Control uses driving video and character image with scene control.",
+      "caveat": "Exact phrase Motion Director not verified; no standalone current tool exposed in this agent's inventory.",
+      "web_ref": "turn33search5"
+    },
+    {
+      "id": "I19",
+      "title": "Motion Director recipe resolution",
+      "url": "tool:mcp__codex_apps__higgsfield_get_preset_instructions?preset=/motion-director",
+      "evidence_type": "live_recipe",
+      "checked_date": "2026-10-18",
+      "supports": "Lookup returned generic unknown-token instructions, not a named product recipe.",
+      "caveat": "Unresolved term; do not use as model ID.",
+      "web_ref": null
+    },
+    {
+      "id": "I20",
+      "title": "Soul identity tool description",
+      "url": "tool:mcp__codex_apps__higgsfield_soul_list",
+      "evidence_type": "tool_metadata",
+      "checked_date": "2026-10-18",
+      "supports": "Soul IDs and reference Elements differ; a requested missing identity must not be silently replaced.",
+      "caveat": "Read-only metadata inspected; no user character history queried.",
+      "web_ref": null
+    },
+    {
+      "id": "I21",
+      "title": "Higgsfield 3D Jutsu guide",
+      "url": "https://higgsfield.ai/blog/higgsfield-3d-jutsu",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Editable scene objects, camera trajectories, imported GLB animation, history and exports.",
+      "caveat": "AI model usage and final generation costs require current preflight.",
+      "web_ref": "turn5search3"
+    },
+    {
+      "id": "I22",
+      "title": "3D Jutsu published tool metadata",
+      "url": "tool:mcp__codex_apps__higgsfield_scene_builder_3d_generate_angles",
+      "evidence_type": "tool_metadata",
+      "checked_date": "2026-10-18",
+      "supports": "Render/inspect scene artifact before paid angles generation; preserve request ID for retries.",
+      "caveat": "No project or generation executed.",
+      "web_ref": null
+    },
+    {
+      "id": "I23",
+      "title": "Higgsfield Blender plugin",
+      "url": "https://higgsfield.ai/blog/higgsfield-blender-plugin",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Desktop add-on, account credits and separate Bridge connecting agent to add-on.",
+      "caveat": "Distinct from standalone local /use-blender MCP; requirements can change.",
+      "web_ref": "turn9search1"
+    },
+    {
+      "id": "I24",
+      "title": "Higgsfield live use Blender recipe",
+      "url": "tool:mcp__codex_apps__higgsfield_get_preset_instructions?preset=/use-blender",
+      "evidence_type": "live_recipe",
+      "checked_date": "2026-10-18",
+      "supports": "Local background Blender process, no add-on, separate session scene, save/load boundaries.",
+      "caveat": "Instructions only read; no installation was performed.",
+      "web_ref": null
+    },
+    {
+      "id": "I25",
+      "title": "Higgsfield official skill model catalog",
+      "url": "https://github.com/higgsfield-ai/skills/blob/main/higgsfield-generate/references/model-catalog.md",
+      "evidence_type": "official_repository",
+      "checked_date": "2026-10-18",
+      "supports": "Useful family routing and aliases.",
+      "caveat": "At research time one Nano Banana alias differs from current live catalog. Live schema wins.",
+      "web_ref": "turn5search2"
+    },
+    {
+      "id": "I26",
+      "title": "Soul Cinema Help Center",
+      "url": "https://higgsfield.ai/creator-hub/help-center/ai-models/how-do-i-use-soul-cinema",
+      "evidence_type": "platform_help",
+      "checked_date": "2026-10-18",
+      "supports": "Cinema lacks web Moodboards/preset panel; web reference disables prompt.",
+      "caveat": "Soul Cinema Studio is a distinct model despite similar names.",
+      "web_ref": "turn17search6"
+    },
+    {
+      "id": "I27",
+      "title": "Ideogram 4.0 prompt guide",
+      "url": "https://ideogram.ai/blog/claude-mcp/",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Natural-language Magic Prompt versus structured JSON route; version-specific.",
+      "caveat": "Does not establish identical behavior or JSON schema for Higgsfield 4.5.",
+      "web_ref": "turn34search2"
+    },
+    {
+      "id": "I28",
+      "title": "Recraft vector generator",
+      "url": "https://www.recraft.ai/ai-vector-generator",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Native vector output should contain editable paths.",
+      "caveat": "Inspect actual delivered file; provider output capabilities differ by selected mode.",
+      "web_ref": "turn34search8"
+    },
+    {
+      "id": "I29",
+      "title": "Recraft prompting guide",
+      "url": "https://www.recraft.ai/blog/how-to-craft-prompts-for-accurate-ai-generated-images",
+      "evidence_type": "provider_documentation",
+      "checked_date": "2026-10-18",
+      "supports": "Subject, medium, environment, light, color, mood and composition are explicit prompt controls.",
+      "caveat": "Prompt intent is not exact geometry verification.",
+      "web_ref": "turn34search9"
+    },
+    {
+      "id": "I30",
+      "title": "Higgsfield design generation models",
+      "url": "https://higgsfield.ai/ai-design-generator",
+      "evidence_type": "platform_product",
+      "checked_date": "2026-10-18",
+      "supports": "Broad routing for Kling O1, Grok and Z Image.",
+      "caveat": "Marketing descriptions are not comparative benchmark results.",
+      "web_ref": "turn34search10"
+    },
+    {
+      "id": "P01",
+      "title": "What uses my credits?",
+      "url": "https://higgsfield.ai/creator-hub/help-center/credits/what-uses-my-credits",
+      "kind": "primary_vendor_help",
+      "evidence_level": "documented_but_conflicts_with_current_MCP",
+      "retrieval": "full_page",
+      "web_ref": "turn18view5",
+      "supports": [
+        "Help article asserts automated surfaces spend credits even with web Unlimited",
+        "Batch outputs charged separately",
+        "Usage history records deductions and refunds"
+      ],
+      "limitations": [
+        "Root agent reports live MCP use_unlim/unlim_choice/supports_unlim fields contradict blanket channel rule",
+        "Resolve using actual current quote and entitlement, not this static assertion"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P02",
+      "title": "How to Use Higgsfield Canvas for Multi-Node Generation",
+      "url": "https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-canvas",
+      "kind": "primary_vendor_help",
+      "evidence_level": "documented",
+      "retrieval": "full_page",
+      "web_ref": "turn26view2",
+      "supports": [
+        "Seedance references require explicit roles",
+        "Connected Kling image treated as start frame; character references use Elements"
+      ],
+      "limitations": [
+        "Canvas-specific semantics must not be assumed for every MCP/API mode"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P03",
+      "title": "Kling 3.0 on Higgsfield: User Guide",
+      "url": "https://higgsfield.ai/blog/Kling-3.0-is-on-Higgsfield-User-Guide-AI-Video-Generation",
+      "kind": "primary_vendor_guide",
+      "evidence_level": "documented_vendor_recommendations",
+      "retrieval": "full_page",
+      "web_ref": "turn18view6",
+      "supports": [
+        "Do not overload shots",
+        "Align motion with the ending frame",
+        "Separate ordinary generation from motion control",
+        "Lower-cost draft workflow recommended"
+      ],
+      "limitations": [
+        "Pricing ratios and platform limits can change",
+        "Vendor recommendations are not independent efficacy tests"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P04",
+      "title": "Seedance 2.5: Complete Prompting Guide",
+      "url": "https://higgsfield.ai/blog/seedance-2-5-prompting-guide",
+      "kind": "primary_vendor_guide",
+      "evidence_level": "documented_vendor_recommendations",
+      "retrieval": "search_result_long_excerpt",
+      "web_ref": "turn24search4",
+      "supports": [
+        "Labeled global style, scene, references and shot structure",
+        "Explicit reference roles and deliberate small set",
+        "Per-shot camera framing and endpoint"
+      ],
+      "limitations": [
+        "Must validate actual selected model/version and live limits",
+        "No measured comparative success rate supplied"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P05",
+      "title": "Higgsfield for Blender: Features, Installation, and MCP Bridge Setup",
+      "url": "https://higgsfield.ai/blog/higgsfield-blender-plugin",
+      "kind": "primary_vendor_guide",
+      "evidence_level": "documented",
+      "retrieval": "search_result_long_excerpt",
+      "web_ref": "turn24search11",
+      "supports": [
+        "Blender Bridge distinct from general asset-generation MCP",
+        "Scene Builder places editable geometry in the current scene"
+      ],
+      "limitations": [
+        "Bridge availability and account entitlements must be inspected live"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P06",
+      "title": "Higgsfield Genjutsu product page",
+      "url": "https://higgsfield.ai/genjutsu",
+      "kind": "primary_vendor_product",
+      "evidence_level": "documented_but_limits_conflict",
+      "retrieval": "full_page",
+      "web_ref": "turn29view5",
+      "supports": [
+        "Motion Transfer and Object Swap distinction",
+        "Page advertises 3\u201330 s and up to 40 image references"
+      ],
+      "limitations": [
+        "Blog P07 gives different duration/reference limits",
+        "Marketing preservation language does not prove exact fidelity"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P07",
+      "title": "Meet Higgsfield Genjutsu: How It Works and What You Get",
+      "url": "https://higgsfield.ai/blog/higgsfield-genjutsu",
+      "kind": "primary_vendor_guide",
+      "evidence_level": "documented_but_limits_conflict",
+      "retrieval": "full_page",
+      "web_ref": "turn29view6",
+      "supports": [
+        "Motion transfer vs local object/element replacement",
+        "Short targeted descriptions and references",
+        "Blog table states 4\u201330 s/up to 30 images"
+      ],
+      "limitations": [
+        "Conflicts with P06; inspect live tool/UI",
+        "No output-quality guarantee inferred"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P08",
+      "title": "Kling 2.1's start-to-end frame feature is insanely good",
+      "url": "https://www.reddit.com/r/aivideo/comments/1mx15lw/kling_21s_starttoend_frame_feature_is_insanely/",
+      "kind": "first_person_showcase_and_comments",
+      "evidence_level": "anecdotal_self_report",
+      "retrieval": "full_post_and_relevant_comments",
+      "web_ref": "turn18view2",
+      "supports": [
+        "Creator describes Midjourney stills, Magnific, Kling start/end animation and postproduction",
+        "Creator reports selecting from batches of 4 and roughly 7 h production"
+      ],
+      "limitations": [
+        "Author account displays deleted",
+        "No independent output evaluation",
+        "Historical rates not current pricing",
+        "Do not generalize one-shot success or batch size"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P09",
+      "title": "Prompt for Kling animation",
+      "url": "https://www.reddit.com/r/KLING/comments/1trubmk/prompt_for_kling_animation/",
+      "kind": "first_person_failure_with_peer_advice",
+      "evidence_level": "anecdotal_failure",
+      "retrieval": "full_post_and_relevant_comments",
+      "web_ref": "turn18view3",
+      "supports": [
+        "Detailed text plus start/end frames failed to yield requested straight camera move",
+        "Discussion identifies potential endpoint perspective inconsistency; author acknowledges separately generated endpoint"
+      ],
+      "limitations": [
+        "No controlled diagnosis",
+        "Advice was not followed by a verified successful rerun",
+        "Do not convert comments to model specification"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P10",
+      "title": "How to create a smooth camera start in start/end frame?",
+      "url": "https://www.reddit.com/r/KLING/comments/1ptqtkg/how_to_create_a_smooth_camera_start_in_startend/",
+      "kind": "first_person_failure",
+      "evidence_level": "anecdotal_failure",
+      "retrieval": "search_result_post_and_comments",
+      "web_ref": "turn30reddit8",
+      "supports": [
+        "User reports immediate camera speed rather than requested ease-in/ease-out",
+        "Prompt-assistant rewrite did not fix result"
+      ],
+      "limitations": [
+        "Model/settings incompletely recorded",
+        "No verified repair",
+        "Shows risk, not prevalence"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P11",
+      "title": "Trying to edit video, but outputs are identical to reference",
+      "url": "https://www.reddit.com/r/Seedance_AI/comments/1v29ye4/trying_to_edit_video_but_outputs_are_identical_to/",
+      "kind": "first_person_failure_with_advice",
+      "evidence_level": "anecdotal_failure_and_unvalidated_hypothesis",
+      "retrieval": "full_post_and_comments",
+      "web_ref": "turn11view1",
+      "supports": [
+        "User reports output often copying source instead of requested cuts",
+        "Comment suggests explicit reference role and per-shot camera/action blocks"
+      ],
+      "limitations": [
+        "Commenter says limited video-to-video experience",
+        "No successful rerun reported",
+        "Claimed90% is one user's estimate, not measured benchmark"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P12",
+      "title": "SD 2.5: Start and End frame vs a lot of reference frames?",
+      "url": "https://www.reddit.com/r/Seedance_AI/comments/1waf1tm/sd_25_start_and_end_frame_vs_a_lot_of_reference/",
+      "kind": "first_person_failure",
+      "evidence_level": "anecdotal_with_provider_context_conflict",
+      "retrieval": "full_post",
+      "web_ref": "turn11view4",
+      "supports": [
+        "User says reference-per-cut images were mostly ignored"
+      ],
+      "limitations": [
+        "Provider-sponsored subreddit context",
+        "Automated release statement contradicts post's named model",
+        "Actual version/mode cannot be established from post"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P13",
+      "title": "How I Made a 60-Second MTB Video with Seedance 2.5",
+      "url": "https://www.reddit.com/r/Seedance_AI/comments/1vu58tx/how_i_made_a_60second_mtb_video_with_seedance_25/",
+      "kind": "promotional_first_person_workflow",
+      "evidence_level": "weak_anecdotal",
+      "retrieval": "full_post_and_comments",
+      "web_ref": "turn11view0",
+      "supports": [
+        "Claims planned sequence, shot division, storyboards, character/bike refs and linked segments improved result",
+        "Admits multiple generations still required"
+      ],
+      "limitations": [
+        "Repeated provider links",
+        "Subreddit bot says named version not officially out",
+        "No independent replication or quality/cost accounting",
+        "Do not use claimed reference counts/durations as specs"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P14",
+      "title": "Scott Adamson: tested Higgsfield Blender plugin product advert",
+      "url": "https://www.linkedin.com/posts/scott-adamson-9455aa9b_quickly-tested-higgsfields-new-blender-plugin-activity-7500873750159032320-PMkn",
+      "kind": "first_person_practitioner_workflow",
+      "evidence_level": "anecdotal_self_report",
+      "retrieval": "full_public_post",
+      "web_ref": "turn26view0",
+      "supports": [
+        "Basic Blender blockout used as Seedance motion reference",
+        "Separate product/location sheets",
+        "Final edit in Premiere"
+      ],
+      "limitations": [
+        "Result video not viewed",
+        "No retry/cost report or controlled comparison"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P15",
+      "title": "How To Save AI Credits With Higgsfield + Blender: caption mirror",
+      "url": "https://prepublish.ai/youtube-transcript/OiULPvTJ-0E",
+      "original_url": "https://www.youtube.com/watch?v=OiULPvTJ-0E",
+      "kind": "third_party_mirror_of_vendor_video_captions",
+      "evidence_level": "vendor_demonstration_claims_transcript_only",
+      "retrieval": "full_caption_text",
+      "web_ref": "turn18view0",
+      "supports": [
+        "Narrator describes editable 3D blocking, reference render and separate appearance references",
+        "Narrator claims controlled comparison with/without blockout",
+        "Structure/style separation and revision in Blender"
+      ],
+      "limitations": [
+        "Not video-viewed",
+        "Mirror claims verbatim automatic captions but original caption track not independently fetched",
+        "Transcription has obvious proper-name errors",
+        "No credit savings percentage or guaranteed first-try result inferred",
+        "Vendor demonstration is not independent benchmark"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P16",
+      "title": "I tested Higgsfield Genjutsu on the same clip",
+      "url": "https://www.reddit.com/r/generativeAI/comments/1wwqz4p/i_tested_higgsfield_genjutsu_on_the_same_clip_the/",
+      "kind": "first_person_showcase_with_bot_comment",
+      "evidence_level": "anecdotal_post_bot_reply_excluded",
+      "retrieval": "full_post_and_comments",
+      "web_ref": "turn29view2",
+      "supports": [
+        "Poster reports body-language and timing transfer in comparison"
+      ],
+      "limitations": [
+        "Video not viewed",
+        "Long technical reply explicitly identifies as automated bot",
+        "Exclude bot's angle thresholds, 3\u20136 reference rule and certainty claims",
+        "No measured cost or success rate"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P17",
+      "title": "Genjutsu makeup test: fictional character consistency",
+      "url": "https://www.reddit.com/r/HiggsfieldAI/comments/1wul7co/genjutsu_makeup_test_keeping_a_fictional/",
+      "kind": "first_person_experiment",
+      "evidence_level": "anecdotal_failure_risk",
+      "retrieval": "full_post",
+      "web_ref": "turn29view0",
+      "supports": [
+        "Reference stills plus source reel used",
+        "Author calls packaging approximate and asks about applicator shape/contact"
+      ],
+      "limitations": [
+        "No completed remedy",
+        "Result video not viewed",
+        "No model-level performance conclusion"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P18",
+      "title": "Kinda disappointed: chained image editing discussion",
+      "url": "https://www.reddit.com/r/nanobanana/comments/1x4zx44/kinda_disappointed/",
+      "kind": "practitioner_comment_excerpt",
+      "evidence_level": "weak_anecdotal_search_excerpt",
+      "retrieval": "search_result_only_open_failed",
+      "web_ref": "turn26reddit6",
+      "supports": [
+        "Comments report cumulative editing drift and duplicated subject",
+        "One user suggests original image plus consolidated changes"
+      ],
+      "limitations": [
+        "Full page unavailable",
+        "Model names/settings and experiment not independently verified",
+        "No causal evidence that watermarking causes degradation",
+        "Not a quantified safe edit-count rule"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P19",
+      "title": "TechHalla floor-plan to 3D-tour workflow",
+      "url": "https://threadreaderapp.com/thread/2023737059077197997.html",
+      "original_url": "https://x.com/techhalla/status/2023737059077197997",
+      "kind": "third_party_mirror_of_practitioner_thread",
+      "evidence_level": "anecdotal_workflow_mirror",
+      "retrieval": "full_thread_text",
+      "web_ref": "turn26view1",
+      "supports": [
+        "Floor plan and consistent room stills used before Kling start/end animation",
+        "Camera-focused motion prompting"
+      ],
+      "limitations": [
+        "Commercial/provider-linked context",
+        "Screenshot prompts not extracted",
+        "Direct X access failed 403",
+        "Videos not viewed"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P20",
+      "title": "How to master Higgsfield AI for consistent video output",
+      "url": "https://glasp.co/youtube/M73BrFnVPA8",
+      "original_url": "https://www.youtube.com/watch?v=M73BrFnVPA8",
+      "kind": "third_party_video_summary_and_partial_transcript",
+      "evidence_level": "excluded_as_full_transcript_evidence",
+      "retrieval": "summary_plus_opening_excerpt",
+      "web_ref": "turn18view1",
+      "supports": [
+        "Search discovery only; claimed workflow mentions reference sheets"
+      ],
+      "limitations": [
+        "Only opening transcript excerpt retrieved",
+        "Read-more link failed",
+        "YouTube fetch throttled",
+        "Do not claim transcript read or video watched; not used for capability facts"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "P21",
+      "title": "Help needed noob with Higgsfield",
+      "url": "https://www.reddit.com/r/HiggsfieldAI/comments/1titfom/help_needed_noob_with_higgsfield/",
+      "kind": "practitioner_advice_with_repo_promotion",
+      "evidence_level": "anecdotal",
+      "retrieval": "full_post_and_comments",
+      "web_ref": "turn29view4",
+      "supports": [
+        "Commenter warns automated generation did not trigger Unlimited",
+        "Suggests character/location angle sheets"
+      ],
+      "limitations": [
+        "Current MCP schema conflicts with blanket Unlimited advice",
+        "Advice contains self-promotion",
+        "No controlled result evidence"
+      ],
+      "retrieved_utc": "2026-10-18",
+      "paid_generation_tested": false
+    },
+    {
+      "id": "R01",
+      "title": "Higgsfield credit usage",
+      "url": "https://higgsfield.ai/creator-hub/help-center/credits/what-uses-my-credits",
+      "type": "platform-help",
+      "accessed_on": "2026-10-19",
+      "claims": [
+        "Automated-surface billing and batches need explicit attention; failed-generation refunds must be reconciled."
+      ],
+      "caveats": [
+        "Article says all automated calls consume credits; current tool contract exposes payment choices. Resolve current surface, not a blanket rule."
+      ]
+    },
+    {
+      "id": "R02",
+      "title": "Higgsfield camera control",
+      "url": "https://higgsfield.ai/blog/ai-video-camera-control",
+      "type": "platform-guide",
+      "accessed_on": "2026-10-19",
+      "claims": [
+        "Separate camera motion from lens/light and use available controls."
+      ],
+      "caveats": [
+        "Claims of fixed physical behavior are vendor guidance, not verified deterministic simulation."
+      ]
+    },
+    {
+      "id": "R03",
+      "title": "Higgsfield live cost and generation contracts",
+      "url": "tool:mcp__codex_apps__higgsfield_estimate_video_cost",
+      "type": "live-tool-contract",
+      "accessed_on": "2026-10-19",
+      "claims": [
+        "Estimates do not generate; HTTPS references may import; prepared parameters and adjustments must be inspected; current schema exposes payment choices."
+      ],
+      "caveats": [
+        "No quote or generation was requested for this research."
+      ]
+    },
+    {
+      "id": "R04",
+      "title": "Higgsfield full live catalog",
+      "url": "tool:mcp__codex_apps__higgsfield_models_list",
+      "type": "live-tool-catalog",
+      "accessed_on": "2026-10-19",
+      "claims": [
+        "Two pages yielded 129 catalog entries including generators, variants and utilities."
+      ],
+      "caveats": [
+        "Entries are not all unique underlying models. No availability or price guarantee for later sessions."
+      ]
+    }
+  ]
+}
