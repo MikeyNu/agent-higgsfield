@@ -16,6 +16,7 @@ Replace the bracketed amount or ask for a quote first. Sharing the repository do
 - Workflow direction for Cinema Studio, Genjutsu, Katana, camera controls and three distinct Blender integrations.
 - A capability and spending preflight tool, request fingerprints, budget reservations and duplicate-submission checks.
 - Shot planning, reference roles, continuity, QA and targeted repair methods.
+- Photographic art direction, natural performance, context-appropriate variation and a realism acceptance rubric that preserves deliberate CG/animation styles.
 - Dated primary-source research, qualified practitioner reports, documentation conflicts and an honest test record.
 
 The skill does not guarantee exact output. Precise geometry, typography, timing and camera paths may require deterministic controls or post-production. Prompt guidance never overrides the selected tool's live schema, the user's instructions or approval gates.
@@ -34,5 +35,7 @@ python scripts/check_repository.py
 The example request intentionally fails closed until actual consent, live capability evidence, confirmed media and a fresh quote are supplied. `preflight.py` never submits a job and cannot authenticate a budget record on its own.
 
 See [research and test scope](research/VALIDATION.md), [source register](research/sources.json) and [catalog snapshot](research/catalog-snapshot.json). The catalog is dated audit evidence, not a permanent list of supported settings or prices.
+
+The [realism revision](research/REALISM_REVIEW.md) records the photographic audit, primary sources, focused workflow checks and a future audience-evaluation protocol. No viewer-indistinguishability rate or real-output quality improvement has been measured.
 
 License: existing MIT license. Research summaries are original paraphrases; linked sources retain their own rights.

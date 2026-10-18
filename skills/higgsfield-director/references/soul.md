@@ -4,6 +4,8 @@ Checked 2026-10-18. Distinguish Soul, Soul 2.0, Soul Cinema, Soul Cinema Studio,
 ## Choose and direct
 Use Soul 2.0 for an editorial/fashion direction with a coherent preset or Moodboard. Use Soul Cinema when a cinematic still is the intended aesthetic. Describe the scene, wardrobe, motivated lighting and mood without contradictory styles.
 
+Match the preset's treatment to the brief. A fashion/beauty finish can conflict with observational realism. Prefer a restrained, task-directed moment and context-appropriate skin/fabric detail over compulsory blemishes or grain. Cinema's marketed realism is not audience-test evidence. Do not add a paid skin enhancer or face restoration unless inspection identifies a suitable defect and spending is authorized.
+
 Resolve a requested trained identity first. A Soul ID is not a reference Element or an arbitrary asset ID. Do not silently drop or replace an unavailable identity. Describe scene changes while protecting the accepted person's appearance; verify consistency after generation.
 
 ## Surface checks

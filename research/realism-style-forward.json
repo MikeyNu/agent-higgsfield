@@ -1,0 +1,51 @@
+{
+  "status": "Planning only. No browsing, external service calls, quotes, uploads or media generation submitted. Model families below are provisional; current availability and exact controls remain unverified.",
+  "skill_files_read": [
+    "skills/higgsfield-director/SKILL.md",
+    "skills/higgsfield-director/references/routing.md",
+    "skills/higgsfield-director/references/realism.md",
+    "skills/higgsfield-director/references/qa-repair.md",
+    "skills/higgsfield-director/references/gpt-image.md",
+    "skills/higgsfield-director/references/kling.md",
+    "skills/higgsfield-director/references/shot-planning.md"
+  ],
+  "shared_assumptions": "An invented adult mechanic and workshop, with no factual business claims or brand fidelity requirement. Landscape 3:2 composition. Two open-ended wrenches: one held, one resting in a tray. A clearly accessible external hex-head bolt on a bicycle bracket provides the comparison target. The bicycle is supported in a repair stand. These are creative planning choices, not confirmed tool parameters.",
+  "A": {
+    "title": "The measured choice - cinematic photographic still",
+    "directors_brief": {
+      "moment": "The mechanic pauses before contact, comparing the held wrench's jaw opening with the bolt; the second size waits within reach. Concentration is visible in the eyeline and slight forward lean.",
+      "camera": "A still, waist-height three-quarter view across the workbench. Keep the mechanic's face, working hand, wrench jaws and bolt readable; let the tool wall soften gently. The framing makes the practical decision legible.",
+      "light_and_materials": "Broad window light from camera left with soft room fill and a restrained warm task lamp. Natural skin and cotton workwear; clean brushed steel tools with controlled highlights. An orderly, professional room with aligned storage and clear bench space.",
+      "variation": "Only naturally creased sleeves and a slightly turned tool tray. No gratuitous dirt, distress, grain or camera shake."
+    },
+    "model_mode_selection_approach": "Evaluate GPT Image text-to-image for the initial still. In any later execution stage, discover the exact Higgsfield model ID and mode, inspect the live schema, then set count, ratio and quality only where supported. Test one candidate against the principal risk: readable, coherent hand/wrench/bolt geometry. Reuse an accepted image for a narrow supported edit if only the grip or jaw opening fails. No model ranking or quality guarantee is implied.",
+    "draft_prompt": "Create one cinematic editorial photograph in a landscape composition. In an orderly professional bicycle workshop, an adult mechanic pauses to choose the right wrench for an accessible hex-head bolt on a bicycle bracket. The bicycle rests securely in a repair stand. The mechanic holds one open-ended wrench beside, but not touching, the bolt, looking precisely at the jaw opening and bolt head; a second wrench lies in a neat tray within reach. Frame from waist height in a three-quarter view across the bench, with face, working hand, wrench jaws and bolt clearly readable and the organized tool wall gently softened. Broad soft window light enters from the left, balanced by room fill and a modest warm task lamp. Show natural skin, cotton sleeve folds, clean metal and believable contact shadows. Restrained color and quiet concentration; professional maintenance space, clean photographic rendering.",
+    "acceptance_criteria": [
+      "The comparison reads immediately: gaze targets the bolt, the held wrench is poised before contact, and the alternate wrench is visible.",
+      "Hands have coherent anatomy and a plausible grip; wrench jaws and hex-head bolt remain distinct, with correct support, perspective and scale.",
+      "The workshop remains orderly and professional. Light direction, metallic reflections and contact shadows agree.",
+      "At intended delivery size, the decision area is sharp enough to inspect; skin is neither waxy nor aggressively sharpened, and background detail does not compete.",
+      "Reject any critical anatomy, tool geometry or brief failure regardless of attractive lighting. Realism stays unvalidated until an actual output is inspected."
+    ]
+  },
+  "B": {
+    "title": "A very careful little mechanic - clay stop-motion",
+    "directors_brief": {
+      "moment": "Preserve A's decision and organized workshop, rebuilding everything as an unmistakable tabletop clay set. The mechanic has intentionally oversized hands, broad fingertips and a compact puppet body.",
+      "camera_light_materials": "Use the same three-quarter framing with a locked camera. Soft miniature-set lighting reveals matte clay, thumbprints and compressed tool seams. The wrenches read as sculpted props with metallic paint; fingerprints remain visible on hands and sleeves.",
+      "movement": "For the motion treatment, hold the initial comparison pose, tilt the head toward the bolt, lift the wrench a small distance, then settle back into a held decision pose. Movement advances in discrete poses, with tactile replacement-animation character. No camera movement or additional action."
+    },
+    "model_mode_selection_approach": "Prepare the clay appearance frame with GPT Image text-to-image, then evaluate a currently available Kling image-to-video mode using that approved frame as the appearance anchor. Confirm duration and reference support later; do not invent a frame-rate control. A short silent shot is sufficient to test pose stepping and hand/prop continuity. Prompted stop-motion cadence is uncertain: if exact stepping is required, use deterministic held-pose animation with 12 distinct poses per second displayed at 24 fps, rather than repeated prompt retries. A still alone cannot validate movement.",
+    "draft_prompt": {
+      "appearance_frame": "Create a landscape clay stop-motion style frame of the same bicycle-mechanic decision: a puppet compares a held open-ended wrench with an accessible hex-head bolt on a supported miniature bicycle; the alternate wrench rests in an orderly tray. Use a waist-height three-quarter view with the decision area readable. Deliberately oversized clay hands and broad fingertips, visible sculptor fingerprints, pressed seams, matte clay clothing and hand-painted metallic tool props. A tidy professional workshop recreated as a crafted miniature, with aligned tool storage and soft side lighting. Preserve purposeful caricature and unmistakably handmade clay surfaces.",
+      "image_to_video": "Preserve this approved puppet, its exaggerated hands, visible fingerprints, miniature workshop and prop shapes. Keep the camera locked. Hold the opening comparison pose; the puppet tilts its head toward the bolt, raises the wrench slightly, then settles into a sustained deciding pose. Animate through crisp, visibly held clay poses with deliberately stepped transitions. Maintain the hand's grip and the wrench's identity throughout. Keep the bicycle and alternate wrench stationary, and retain the handcrafted surface texture."
+    },
+    "acceptance_criteria": [
+      "The choice matches A, but the result is unmistakably clay animation; oversized hands and fingerprints are required style features, not defects to correct.",
+      "Hands retain their designed proportions and digit layout; tools do not melt, merge, multiply or float. Stylization permits exaggeration while contact and prop continuity remain coherent.",
+      "Watch the entire motion at normal speed: distinct held poses and stepped transitions must remain evident, without fluid interpolation or motion blur hiding the cadence.",
+      "Inspect movement and holds for accidental texture swimming or lighting flicker; intentional pose changes must not erase fingerprints or turn clay into photoreal skin.",
+      "The orderly set, composition, single action and stationary camera persist. Judge material and performance against the clay brief, not photographic realism. Motion acceptance remains uninspected at planning stage."
+    ]
+  }
+}

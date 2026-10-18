@@ -19,6 +19,8 @@ Google documents subject references, first/last frames and extension, with mode-
 
 Set actual duration, ratio and available audio controls outside prose. If the delivery must be silent, use a verified audio control or remove the track in post-production.
 
+For people, keep a short shot focused on one moment. Example I2V intent: the seated designer studies the approved sketch, glances toward the colleague off-screen right, then settles; the fixed camera and accepted appearance remain unchanged. Adapt to the actual source and required action. Avoid a list of compulsory microgestures. Advanced lens language is not a calibrated control, and natural speech/audio synchronization still needs full inspection.
+
 ## Diagnose before revising
 
 Unexpected motion: simplify to one camera path and one subject action. Appearance drift: improve the starting/reference image and remove contradictory descriptions. Dialogue errors: shorten the line or use a dedicated speech/lipsync workflow. Unstable transition: align the endpoints' perspective and lighting before another attempt.
@@ -26,3 +28,5 @@ Unexpected motion: simplify to one camera path and one subject action. Appearanc
 Do not promise perfect identity from marketing claims or assume that adding 4K to the prompt changes output resolution.
 
 Sources: [Google prompting](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/video-gen-prompt-guide) · [Google Veo API](https://ai.google.dev/gemini-api/docs/veo) · [Higgsfield integration](https://higgsfield.ai/blog/How-to-Use-Google-Veo-3.1-Complete-Guide-for-the-New-Model)
+
+Realism update, checked 2026-10-19: [Google best practices](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/video/best-practice?hl=en) and [Veo limitations](https://deepmind.google/models/veo/).

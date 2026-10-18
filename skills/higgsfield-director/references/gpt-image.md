@@ -6,6 +6,7 @@ Checked 2026-10-18. Resolve the exact live Higgsfield version and mode; do not c
 - Number references by role: edit target, product, person, style, background. Define how they combine.
 - Quote literal copy, its location and typography. Spell unusual names when necessary. Check the final lettering rather than trusting the prompt.
 - Reuse the accepted output for a narrow edit and restate its invariants. Inspect surrounding content for unintended changes.
+- For photography, specify the capture purpose, concrete moment, framing, light and material response. Preserve appropriate skin/fabric variation without automatic beautification or distress. Repeated generative edits can still change protected regions; use compositing when pixels must remain identical. Higher quality is not a guarantee of a better photographic result.
 - Use Flare versus Sunburst only when the resolved GPT Image 2.5 route exposes that choice. Their provider positioning is speed versus quality, not a guaranteed cost ranking for every Higgsfield request.
 
 ## Surface checks

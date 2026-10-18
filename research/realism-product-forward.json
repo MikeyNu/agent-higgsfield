@@ -1,0 +1,32 @@
+{
+  "intent": "planning_only",
+  "status": "Concept and prompts prepared. No browsing, upload, estimate, model selection or generation performed. Photographic realism and brand fidelity remain unvalidated until outputs are inspected.",
+  "concept": "A quiet placement ritual: one hand lowers a pristine sealed glass skincare bottle onto a clean pale stone plinth. Deliberate lighting, credible contact and restrained composition create the polished campaign finish.",
+  "inputs_and_control": {
+    "missing": "No files are attached. [LABEL ARTWORK] means the original approved vector or high-resolution label file, not an available attachment. [BOTTLE REFERENCE] means an approved product reference or a subsequently approved concept bottle. Exact branding cannot be verified or recreated from this brief alone.",
+    "reference_roles": [
+      "[BOTTLE REFERENCE]: bottle silhouette, scale, glass, closure, intact seal, label placement and any visible contents.",
+      "[LABEL ARTWORK]: authoritative lettering, logo, colors, spacing and proportions.",
+      "[APPROVED OPENING STILL]: image-to-video appearance and opening composition, approved after image QA."
+    ],
+    "branding_method": "Generate the photographic plate with an appropriate label substrate and placement, without invented lettering. Apply the original artwork through deterministic compositing, matching surface curvature, perspective, reflections and occlusion. For video, preserve or replace the label with a tracked composite from that same artwork and inspect every frame. Prompt wording alone does not guarantee exact text.",
+    "execution_boundary": "The following prompts are model-neutral creative direction, not executable parameters. A future authorized production step must inspect the selected model and mode, compile supported controls, and establish output settings and spending authorization. No live capability is assumed here."
+  },
+  "image_prompt": "Controlled commercial skincare photograph, intended as the opening frame of a gentle placement action. Use [BOTTLE REFERENCE] for the approved glass bottle's shape, closure, intact seal, materials and label position. The bottle is new and immaculate. A single adult hand enters from camera right and holds the upright bottle just above a clean pale stone plinth; the visible air gap is small but clear. The grip supports its weight naturally, with fingertips on the sides and rear, leaving the entire front label area visible. Frame the bottle slightly left of center with calm breathing room around the hand. Use a stable, slightly elevated frontal viewpoint with restrained perspective; the label and contacting fingertips are sharply readable, with gentle background falloff. A broad diffused source from upper left gives soft skin modeling and a coherent soft shadow; a restrained edge reflection separates the glass from a warm ivory backdrop. Preserve transparent glass, convincing wall thickness and clean controlled reflections without glare across the label. Natural skin creases and subtle tonal variation convey human touch. The plinth and product remain pristine, without added scratches, fingerprints, dust or distressed texture. Reserve the approved label area for [LABEL ARTWORK] in compositing; do not invent typography or logos. Restrained neutral color, smooth highlight rolloff, polished photographic finish without waxy skin or sharpening halos.",
+  "image_to_video_motion_prompt": "Starting from [APPROVED OPENING STILL], the same hand lowers the upright bottle through the small visible gap in one slow, continuous action. Maintain the grip until the bottle base meets the stone. The approach decelerates naturally; the base settles flush, the contact shadow closes coherently, and the hand transfers the bottle's weight to the plinth. Only after stable contact, the fingers relax and withdraw gently toward camera right. The bottle remains still and upright for a quiet final hold with the full label facing the camera. Keep the camera locked, with unchanged framing, focus and lighting. Preserve bottle geometry, closure, intact seal, material appearance and identity throughout the grip, contact and release. Keep the label area unobstructed and its surface stable for the exact artwork composite. No bottle rotation, sliding, bounce, hand duplication, cuts or additional gestures. These are requested motion beats, not frame-accurate timing controls.",
+  "acceptance_and_repair_plan": [
+    "Approve the opening still before animation: one bottle and one anatomically coherent hand; intact seal; appropriate new condition; plausible supporting grip; clean stone; clear label area; coherent glass, skin, reflections and shadows. Inspect the full image and detail at the intended delivery size.",
+    "Compare final composited branding directly with the original artwork: every character, logo, color, proportion, placement and orientation must match and remain legible. Missing artwork prevents this acceptance check. Repair lettering through source-art compositing, not repeated text-generation attempts.",
+    "Watch the complete clip at normal speed, then inspect approach, contact, release and withdrawal frame by frame. Require continuous support before contact, a stable base after release, consistent fingers and bottle geometry, and no slipping, morphing, reflection flicker or label swimming.",
+    "Record pass, repair, reject or uninspected for anatomy, physics, materials, branding and finish, with a crop or time range. Any critical failure or uninspected required feature blocks acceptance; attractive lighting cannot compensate.",
+    "Preserve usable material. Repair a localized still defect with a supported local edit; fix label fidelity with deterministic compositing. If contact or grip repeatedly fails, use filmed hand performance or deterministic animation/compositing. Correct excessive processing locally rather than adding grain, dirt or blur.",
+    "Inspect the actual final export after compositing, cropping, grading and compression. Any future retry needs one diagnosed cause, one deliberate change and remaining authorization. Stop when accepted, when the authorized cap is reached, or when the defect requires a different method."
+  ],
+  "skill_files_read": [
+    "skills/higgsfield-director/SKILL.md",
+    "skills/higgsfield-director/references/routing.md",
+    "skills/higgsfield-director/references/realism.md",
+    "skills/higgsfield-director/references/shot-planning.md",
+    "skills/higgsfield-director/references/qa-repair.md"
+  ]
+}

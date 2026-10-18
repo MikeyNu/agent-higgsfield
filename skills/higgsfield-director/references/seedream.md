@@ -6,6 +6,8 @@ For documented 4.0/4.5/5.0 Lite workflows, use concise natural language: subject
 
 For a localized edit, name the object, its location and the intended change; list surrounding properties that must remain. Pro's spatial-grounding claims support testing this approach, not promising pixel-perfect preservation. Do not apply an older version's advanced syntax to a new version without checking its guide.
 
+For photographic work, keep the natural-language brief selective: one purposeful moment, coherent illumination and specific material condition. Assign references to identity, product geometry and lighting separately. Inspect whether a realism edit changes facial identity, finish, functional details or architecture; advertised precision is not proof of preservation.
+
 ## Surface checks
 The live snapshot gives Pro/Flash resolution choices of 1k/1.5k/2k, while 4.5/Lite expose basic/high quality. The public Pro page contains conflicting 2K and 4K wording. Prefer current task settings and verify output dimensions.
 

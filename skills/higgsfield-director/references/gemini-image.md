@@ -6,6 +6,8 @@ Describe the intended asset, subject, environment and concrete visual decisions 
 
 Google's guidance supports specific composition and photographic language. Long adjective lists add less control than explicit subject relationships.
 
+For realism, explain the photographic purpose and connect pose, attention, objects and illumination in one plausible moment. Prefer a positive description of the desired skin/material finish to a long prohibition list. Make small edits from the accepted image and recheck protected details; do not assume earlier job context persists.
+
 ## Surface checks
 In the snapshot, Nano Banana, 2, 2 Lite, Pro and 2.1 are separate entries. Version 2.1 exposes thinking_level, search switches, seed and video references; 2/2 Lite/2.1 expose mask roles. Do not assign those controls to Pro or legacy Nano Banana without schema evidence. Provider reference ceilings do not validate Higgsfield input compatibility. Verify actual mask conventions before local edits.
 

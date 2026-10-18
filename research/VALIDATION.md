@@ -2,6 +2,8 @@
 
 Research date: 19 October 2026, Africa/Johannesburg. This is a dated record of source review and offline checks, not a claim that future models or prices will remain unchanged.
 
+This record describes the initial release. See the subsequent [realism revision and evidence scope](REALISM_REVIEW.md) for added art direction and focused planning checks.
+
 ## Research scope
 
 - [Source register](sources.json): 81 records covering 75 distinct source URLs or tool identifiers. Records include primary provider/platform documentation, current tool contracts and qualified practitioner reports. They are not 81 independent websites.

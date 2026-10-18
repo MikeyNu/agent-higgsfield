@@ -1,6 +1,6 @@
 ---
 name: higgsfield-director
-description: Direct cost-controlled Higgsfield image, video, audio, editing and 3D work with model-specific prompting, reference planning, capability checks, budget preflight and output QA. Use for Higgsfield, Seedance, Kling, Cinema Studio, Motion Director, Genjutsu, Katana, Blender and requests to plan, quote, generate, repair or inspect media. Distinguish planning from paid execution.
+description: Direct cost-controlled Higgsfield image, video, audio, editing and 3D work with model-specific prompting, photographic realism, natural art direction, reference planning, capability checks, budget preflight and output QA. Use for Higgsfield, Seedance, Kling, Cinema Studio, Motion Director, Genjutsu, Katana, Blender and requests to plan, quote, generate, repair or inspect media. Distinguish planning from paid execution.
 ---
 
 # Higgsfield Director
@@ -13,7 +13,8 @@ Deliver the requested media with the fewest justified attempts. Treat prompts as
 2. Read [routing](references/routing.md), then only the selected model-family file linked below. Match the exact version and mode to current capabilities.
 3. Read [spending](references/spending.md) before the first potentially billable operation. Read [workflows](references/workflows.md) only for a named workflow, editing or 3D.
 4. Use [shot planning](references/shot-planning.md) for timing, continuity or multiple shots; [QA and repair](references/qa-repair.md) before accepting an output.
-5. Consult research and source records only for unresolved claims or refreshes. They are evidence, not runtime configuration.
+5. Read [realism direction](references/realism.md) for photographic, live-action or hybrid work. Preserve deliberate animation/CG styling.
+6. Consult research and source records only for unresolved claims or refreshes. They are evidence, not runtime configuration.
 
 | Selected family | Read |
 | --- | --- |
@@ -37,6 +38,8 @@ Deliver the requested media with the fewest justified attempts. Treat prompts as
 Extract purpose, deliverable/count, duration/ratio, references and rights, essential invariants, acceptable variation, deadline and spending allocation. Ask only for missing details that change a costly decision. Preserve authorization already given; do not request it again merely because a skill says to.
 
 Write a small acceptance contract: what must appear, what must stay fixed, what motion is allowed and what would fail. Separate requirements from preferences. Describe successful visible behavior rather than adjectives such as “cinematic” alone. Do not invent company facts or substitute a different brief.
+
+Choose photographic, stylized or hybrid treatment. For realism, establish the moment, subject intent, camera motivation, light source and material condition. Select only context-appropriate variation. A clean product or controlled studio image need not look dirty, shaky or distressed to feel human-directed.
 
 Classify intent: **plan / quote / generate / edit / inspect**. This classification belongs to the current request. An earlier generation request does not authorize a later research task to spend credits.
 
@@ -75,6 +78,8 @@ After a timeout, recover the existing job through supported status/history tools
 ### 6. Inspect, repair, finish
 
 Watch the full video and inspect representative frames, including transitions, hands, contacts, text and camera endpoints. Inspect image detail at intended delivery size. Distinguish metadata checks from visual QA. If media cannot be inspected, report that limit.
+
+For realism, apply the QA acceptance rubric to performance, physical coherence and processing as well as detail. Do not average away a critical failure or call an uninspected result accepted. Never claim a viewer-detection probability from prompts, metadata, model reputation or offline tests.
 
 Preserve a usable result. Fix a localized defect with the appropriate edit or post-production step before replacing the entire asset. For a retry, record one diagnosed cause and one deliberate change; compare within remaining authorization. Stop on acceptance, the cap, an unresolved failure or a repeated defect requiring a different method.
 

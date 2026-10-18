@@ -8,11 +8,13 @@ Use only fields that constrain this deliverable:
 Goal / intended use:
 Output: count, aspect ratio, duration, required delivery quality
 Invariants: identity, product geometry, wardrobe, lighting, exact text
+Treatment and intent: photographic / stylized / hybrid; why this moment matters
 References: ID -> purpose (appearance / opening / ending / motion / sound)
 Opening: subject position, foreground, middle distance, background
 Action: one principal event, ordered beats
 Camera: start, path, target, speed/easing, landing, lens intent
 Continuity: what persists across time and joins
+Physical anchors: support/contact, occlusion, weight and material persistence
 Audio: dialogue / ambience / music / silent, as supported
 Acceptance: observable pass criteria and hard failures
 ```

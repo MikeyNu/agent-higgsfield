@@ -1,0 +1,46 @@
+{
+  "files_read": [
+    "skills/higgsfield-director/SKILL.md",
+    "skills/higgsfield-director/references/routing.md",
+    "skills/higgsfield-director/references/qa-repair.md",
+    "skills/higgsfield-director/references/realism.md"
+  ],
+  "response": {
+    "decision": "Hold final acceptance and delivery. Preserve this candidate for targeted repair and inspection; attractive imagery does not offset the reported physical and performance failures.",
+    "evidence_limit": "This assessment uses the supplied description of the client's inspection notes. A contact sheet is mentioned but has not been inspected here. No actual media, playable video or audio was reviewed. The defects are reported, not independently verified. Even a reviewed contact sheet would not establish continuous motion, absence of brief defects, natural acting or lip sync.",
+    "what_can_be_accepted": "Record the client's approval of the visual look as a creative preference and preserve the source. It is not an independently verified realism pass or acceptance of the finished six-second clip.",
+    "qa_status": [
+      {
+        "dimension": "Anatomy and physical coherence",
+        "status": "repair",
+        "basis": "The reported two-frame hand-through-mug contact is an impossible interaction. Its short duration does not make it acceptable by default. Locate it in the playable source and inspect approach, contact, release and adjacent frames. Grain cannot correct geometry or contact."
+      },
+      {
+        "dimension": "Intent and behavior",
+        "status": "repair",
+        "basis": "The reported mid-task camera look conflicts with the task-focused scene unless that glance has an explicitly intended motivation. Establish the intended task eyeline and repair the mismatched beat; do not certify the remaining performance from notes."
+      },
+      {
+        "dimension": "Identity, material fidelity, capture and finish, and temporal continuity",
+        "status": "uninspected",
+        "basis": "Client praise does not establish these dimensions across the full clip or final export."
+      },
+      {
+        "dimension": "Sound and speech synchronization",
+        "status": "uninspected",
+        "basis": "There is no playable audio/video evidence, and speech has not been established. Lip sync can be marked not applicable only after confirming the deliverable has no speech requiring synchronization."
+      }
+    ],
+    "next_steps": [
+      "Obtain the original playable clip, its intended audio track and the exact frame numbers or timecodes for both notes. Confirm the delivery size, frame rate and whether six seconds is a strict requirement.",
+      "Set observable acceptance conditions: the hand stays outside the mug with believable grip and release; mug shape and position stay stable; gaze follows the task or another explicitly motivated target; the essential action and required duration remain intact.",
+      "Watch all six seconds at normal speed and intended delivery size, then inspect the reported intervals and neighboring frames frame by frame. Review audio separately and together with the picture. Record pass, repair, reject, uninspected or not applicable against the acceptance conditions.",
+      "Prepare a localized repair proposal that preserves the approved look. Evaluate compositing or patching the hand contact and an edit or approved alternative take for the gaze beat. Trim or recut only if task continuity and the required duration survive; do not assume removing two frames will produce smooth motion. If repair cannot preserve the brief, reject this candidate for final delivery and propose a different production method.",
+      "Use film grain only as an intentional finishing choice after content defects are resolved. Inspect the actual export for continuity, sync, geometry and processing artifacts before release. No new generation, paid operation or media edit is authorized or performed in this assessment."
+    ],
+    "natural_acting_certification": "Cannot certify. Full motion, timing, gaze motivation, reactions and settling require inspection of the playable performance.",
+    "lip_sync_certification": "Cannot certify. Synchronized playable picture and audio are required, if speech is present.",
+    "ordinary_viewer_ai_recognition_percentage": null,
+    "percentage_explanation": "No defensible percentage can be derived from these notes, a contact sheet, prompt quality, a model reputation or an AI-detector score. To estimate it, test the final export with a defined sample of the target audience under representative viewing conditions, specify the recognition question and scoring method, and report the observed proportion with sample size and uncertainty. Until then, the percentage is unknown; supplying a number would be invented."
+  }
+}

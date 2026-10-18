@@ -10,6 +10,8 @@ For complex 2.5 work, use short labeled sections: reference roles, global look, 
 
 Higgsfield distinguishes references within a clip from saved Elements across separate jobs [1]. ByteDance documents stronger reference interpretation, clay-render workflows and targeted time-based edits in 2.5 [2]. These guide route selection; they do not guarantee geometry or exact timing.
 
+For photographic performance, assign a concrete action, attention target and settling state. Inspect hand/object contacts and identity/material persistence after occlusion. ByteDance explicitly acknowledges complex-motion physics and multi-subject interaction limits. Use supported blockout/performance references when needed, but do not remove an essential action just to make the test easier.
+
 ## Original reference example
 
 > References: image A establishes the white sculpture, materials and lighting. Video B supplies only the forward camera path.\

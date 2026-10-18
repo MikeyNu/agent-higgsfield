@@ -1,0 +1,15 @@
+{
+  "scope": "Offline forward-use inputs. These are planning checks, not generated-media evaluations.",
+  "styles": {
+    "request": "Use the Higgsfield Director skill to prepare two concepts for me. A: a cinematic photographic still of a bicycle mechanic deciding which wrench fits a bolt, in an orderly professional workshop. B: the same moment as a clearly stylized clay stop-motion scene, keeping exaggerated hands, clay fingerprints and deliberately stepped movement. For each, give a compact director's brief, model/mode selection approach, draft prompt and acceptance criteria.",
+    "constraints": "Planning only; no browsing, generation, uploads, quotes or external services. Read only the runtime skill, no research or other agents' outputs. Save JSON with skill_files_read and separate A/B proposals. Limit 1200 words."
+  },
+  "product": {
+    "request": "Use Higgsfield Director. I need a pristine photographic skincare campaign concept: a new sealed glass bottle with an exact supplied label, one hand gently setting it on a clean stone plinth. I want human touch, an expensive polished finish and legible branding. Please give an image prompt, an image-to-video motion prompt and a concise acceptance/repair plan.",
+    "constraints": "No files attached, no generation authorization or selected live model. No browsing, uploads, estimates, generation, repo research or other agents' outputs. Save JSON with skill_files_read. Limit 1100 words."
+  },
+  "evidence": {
+    "request": "Use Higgsfield Director. A client says a 6-second office clip is beautiful, but their inspection notes say a hand penetrates the mug for two frames and the actor looks directly at camera midway through a task-focused scene. They propose adding film grain and exporting. We only have those notes and a contact sheet, with no playable video/audio. Decide what can be accepted, propose next steps and explain whether we can certify natural acting/lip sync and give the percentage of ordinary viewers who would recognize it as AI.",
+    "constraints": "No new generation authorized. No browsing, external tools, research or other agent outputs. Do not claim actual media inspection. Save JSON with files_read and response. Limit 1000 words."
+  }
+}
